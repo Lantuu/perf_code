@@ -1,0 +1,7 @@
+commit 82cd51d0868a6259baeaf54323c249cf82cf5209
+Author: Vlad Niculae <vlad@vene.ro>
+Date:   Sat Jan 5 23:08:38 2013 +0000
+
+    DOC: PCD details and references
+
+doc/modules/neural_networks.rst

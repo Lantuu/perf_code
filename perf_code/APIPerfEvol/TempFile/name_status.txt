@@ -1,0 +1,27 @@
+commit 8972ddf13f6d0ba827f99a63d4261944baf3f29f
+Author: Marc Garcia <garcia.marc@gmail.com>
+Date:   Wed Jan 23 16:22:24 2019 +0000
+
+    DOC: Creating top-level user guide section, and moving pages inside (#24677)
+
+M	doc/source/index.rst.template
+R100	doc/source/advanced.rst	doc/source/user_guide/advanced.rst
+R100	doc/source/categorical.rst	doc/source/user_guide/categorical.rst
+R100	doc/source/computation.rst	doc/source/user_guide/computation.rst
+R099	doc/source/enhancingperf.rst	doc/source/user_guide/enhancingperf.rst
+R100	doc/source/gotchas.rst	doc/source/user_guide/gotchas.rst
+R100	doc/source/groupby.rst	doc/source/user_guide/groupby.rst
+A	doc/source/user_guide/index.rst
+R099	doc/source/indexing.rst	doc/source/user_guide/indexing.rst
+R100	doc/source/integer_na.rst	doc/source/user_guide/integer_na.rst
+R099	doc/source/io.rst	doc/source/user_guide/io.rst
+R100	doc/source/merging.rst	doc/source/user_guide/merging.rst
+R100	doc/source/missing_data.rst	doc/source/user_guide/missing_data.rst
+R099	doc/source/options.rst	doc/source/user_guide/options.rst
+R098	doc/source/reshaping.rst	doc/source/user_guide/reshaping.rst
+R100	doc/source/sparse.rst	doc/source/user_guide/sparse.rst
+R099	doc/source/style.ipynb	doc/source/user_guide/style.ipynb
+R100	doc/source/text.rst	doc/source/user_guide/text.rst
+R100	doc/source/timedeltas.rst	doc/source/user_guide/timedeltas.rst
+R100	doc/source/timeseries.rst	doc/source/user_guide/timeseries.rst
+R100	doc/source/visualization.rst	doc/source/user_guide/visualization.rst

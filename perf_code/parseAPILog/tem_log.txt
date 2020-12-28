@@ -1,0 +1,261 @@
+commit 8a4935468f347c28dcde4b221a4fb4efa5d37e37
+Author: Joel Nothman <joel.nothman@gmail.com>
+Date:   Thu Feb 5 21:27:51 2015 +1100
+
+    DOC further clarity for boolean distance operations
+
+diff --git a/scipy/spatial/distance.py b/scipy/spatial/distance.py
+--- a/scipy/spatial/distance.py
++++ b/scipy/spatial/distance.py
+@@ -52,3 +54,2 @@
+-   
+-Similarly, distance functions between two boolean vectors (representing sets)
+-``u`` and ``v``:
++``v``.  As in the case of numerical vectors, ``pdist`` is more efficient for
++computing the distances between all pairs.
+
+commit b99b7767b5091ebc55fb5077e040fdb0bdfd019d
+Author: jnothman <jnothman@student.usyd.edu.au>
+Date:   Mon Jan 5 23:27:07 2015 +1100
+
+    DOC separate boolean distance functions for clarity
+    
+    While boolean vector distances had been marked so in the docstring, this was harder to identify in the compiled Sphinx autosummary where these comments do not appear. Instead, this commit distinguishes set distances from vector distances in a separate listing.
+
+diff --git a/scipy/spatial/distance.py b/scipy/spatial/distance.py
+--- a/scipy/spatial/distance.py
++++ b/scipy/spatial/distance.py
+@@ -61,1 +52,3 @@
+-   yule             -- the Yule dissimilarity (boolean).
++   
++Similarly, distance functions between two boolean vectors (representing sets)
++``u`` and ``v``:
+
+commit 3627aeda372ca9ed51ecd03b24c96ce501db30bb
+Author: Pauli Virtanen <pav@iki.fi>
+Date:   Tue Aug 31 21:59:25 2010 +0000
+
+    DOC: spatial: move scipy.spatial docs to the module docstrings
+
+diff --git a/scipy/spatial/distance.py b/scipy/spatial/distance.py
+--- a/scipy/spatial/distance.py
++++ b/scipy/spatial/distance.py
+@@ -42,45 +60,1 @@
+-+------------------+-------------------------------------------------+
+-|*Function*        | *Description*                                   |
+-+------------------+-------------------------------------------------+
+-| braycurtis       | the Bray-Curtis distance.                       |
+-+------------------+-------------------------------------------------+
+-| canberra         | the Canberra distance.                          |
+-+------------------+-------------------------------------------------+
+-| chebyshev        | the Chebyshev distance.                         |
+-+------------------+-------------------------------------------------+
+-| cityblock        | the Manhattan distance.                         |
+-+------------------+-------------------------------------------------+
+-| correlation      | the Correlation distance.                       |
+-+------------------+-------------------------------------------------+
+-| cosine           | the Cosine distance.                            |
+-+------------------+-------------------------------------------------+
+-| dice             | the Dice dissimilarity (boolean).               |
+-+------------------+-------------------------------------------------+
+-| euclidean        | the Euclidean distance.                         |
+-+------------------+-------------------------------------------------+
+-| hamming          | the Hamming distance (boolean).                 |
+-+------------------+-------------------------------------------------+
+-| jaccard          | the Jaccard distance (boolean).                 |
+-+------------------+-------------------------------------------------+
+-| kulsinski        | the Kulsinski distance (boolean).               |
+-+------------------+-------------------------------------------------+
+-| mahalanobis      | the Mahalanobis distance.                       |
+-+------------------+-------------------------------------------------+
+-| matching         | the matching dissimilarity (boolean).           |
+-+------------------+-------------------------------------------------+
+-| minkowski        | the Minkowski distance.                         |
+-+------------------+-------------------------------------------------+
+-| rogerstanimoto   | the Rogers-Tanimoto dissimilarity (boolean).    |
+-+------------------+-------------------------------------------------+
+-| russellrao       | the Russell-Rao dissimilarity (boolean).        |
+-+------------------+-------------------------------------------------+
+-| seuclidean       | the normalized Euclidean distance.              |
+-+------------------+-------------------------------------------------+
+-| sokalmichener    | the Sokal-Michener dissimilarity (boolean).     |
+-+------------------+-------------------------------------------------+
+-| sokalsneath      | the Sokal-Sneath dissimilarity (boolean).       |
+-+------------------+-------------------------------------------------+
+-| sqeuclidean      | the squared Euclidean distance.                 |
+-+------------------+-------------------------------------------------+
+-| yule             | the Yule dissimilarity (boolean).               |
+-+------------------+-------------------------------------------------+
++   yule             -- the Yule dissimilarity (boolean).
+
+commit 905cc8cb07533391a866ce844cb74380ea974104
+Author: damian.eads <damian.eads@localhost>
+Date:   Sat Aug 23 05:21:05 2008 +0000
+
+    Moved some remaining distance-related functions from scipy.distance to scipy.cluster.
+
+diff --git a/scipy/cluster/distance.py b/scipy/cluster/distance.py
+--- a/scipy/cluster/distance.py
++++ b/scipy/cluster/distance.py
+@@ -17,23 +33,45 @@
+ +------------------+-------------------------------------------------+
+-|braycurtis        | the Bray-Curtis distance.                       |
+-|canberra          | the Canberra distance.                          |
+-|chebyshev         | the Chebyshev distance.                         |
+-|cityblock         | the Manhattan distance.                         |
+-|correlation       | the Correlation distance.                       |
+-|cosine            | the Cosine distance.                            |
+-|dice              | the Dice dissimilarity (boolean).               |
+-|euclidean         | the Euclidean distance.                         |
+-|hamming           | the Hamming distance (boolean).                 |
+-|jaccard           | the Jaccard distance (boolean).                 |
+-|kulsinski         | the Kulsinski distance (boolean).               |
+-|mahalanobis       | the Mahalanobis distance.                       |
+-|matching          | the matching dissimilarity (boolean).           |
+-|minkowski         | the Minkowski distance.                         |
+-|rogerstanimoto    | the Rogers-Tanimoto dissimilarity (boolean).    |
+-|russellrao        | the Russell-Rao dissimilarity (boolean).        |
+-|seuclidean        | the normalized Euclidean distance.              |
+-|sokalmichener     | the Sokal-Michener dissimilarity (boolean).     |
+-|sokalsneath       | the Sokal-Sneath dissimilarity (boolean).       |
+-|sqeuclidean       | the squared Euclidean distance.                 |
+-|yule              | the Yule dissimilarity (boolean).               |
++|*Function*        | *Description*                                   |
+++------------------+-------------------------------------------------+
++| braycurtis       | the Bray-Curtis distance.                       |
+++------------------+-------------------------------------------------+
++| canberra         | the Canberra distance.                          |
+++------------------+-------------------------------------------------+
++| chebyshev        | the Chebyshev distance.                         |
+++------------------+-------------------------------------------------+
++| cityblock        | the Manhattan distance.                         |
+++------------------+-------------------------------------------------+
++| correlation      | the Correlation distance.                       |
+++------------------+-------------------------------------------------+
++| cosine           | the Cosine distance.                            |
+++------------------+-------------------------------------------------+
++| dice             | the Dice dissimilarity (boolean).               |
+++------------------+-------------------------------------------------+
++| euclidean        | the Euclidean distance.                         |
+++------------------+-------------------------------------------------+
++| hamming          | the Hamming distance (boolean).                 |
+++------------------+-------------------------------------------------+
++| jaccard          | the Jaccard distance (boolean).                 |
+++------------------+-------------------------------------------------+
++| kulsinski        | the Kulsinski distance (boolean).               |
+++------------------+-------------------------------------------------+
++| mahalanobis      | the Mahalanobis distance.                       |
+++------------------+-------------------------------------------------+
++| matching         | the matching dissimilarity (boolean).           |
+++------------------+-------------------------------------------------+
++| minkowski        | the Minkowski distance.                         |
+++------------------+-------------------------------------------------+
++| rogerstanimoto   | the Rogers-Tanimoto dissimilarity (boolean).    |
+++------------------+-------------------------------------------------+
++| russellrao       | the Russell-Rao dissimilarity (boolean).        |
+++------------------+-------------------------------------------------+
++| seuclidean       | the normalized Euclidean distance.              |
+++------------------+-------------------------------------------------+
++| sokalmichener    | the Sokal-Michener dissimilarity (boolean).     |
+++------------------+-------------------------------------------------+
++| sokalsneath      | the Sokal-Sneath dissimilarity (boolean).       |
+++------------------+-------------------------------------------------+
++| sqeuclidean      | the squared Euclidean distance.                 |
+++------------------+-------------------------------------------------+
++| yule             | the Yule dissimilarity (boolean).               |
+ +------------------+-------------------------------------------------+
+
+commit e33288c915e5860fa668181a65b5ccf55edc9d3f
+Author: damian.eads <damian.eads@localhost>
+Date:   Sat Aug 23 00:42:16 2008 +0000
+
+    Converted the documentation to restructured text.
+
+diff --git a/scipy/cluster/distance.py b/scipy/cluster/distance.py
+--- a/scipy/cluster/distance.py
++++ b/scipy/cluster/distance.py
+@@ -4,25 +17,23 @@
+- pdist              computes distances between each observation pair.
+-
+-Distance functions between two vectors u and v
+-
+- braycurtis         the Bray-Curtis distance.
+- canberra           the Canberra distance.
+- chebyshev          the Chebyshev distance.
+- cityblock          the Manhattan distance.
+- correlation        the Correlation distance.
+- cosine             the Cosine distance.
+- dice               the Dice dissimilarity (boolean).
+- euclidean          the Euclidean distance.
+- hamming            the Hamming distance (boolean).
+- jaccard            the Jaccard distance (boolean).
+- kulsinski          the Kulsinski distance (boolean).
+- mahalanobis        the Mahalanobis distance.
+- matching           the matching dissimilarity (boolean).
+- minkowski          the Minkowski distance.
+- rogerstanimoto     the Rogers-Tanimoto dissimilarity (boolean).
+- russellrao         the Russell-Rao dissimilarity (boolean).
+- seuclidean         the normalized Euclidean distance.
+- sokalmichener      the Sokal-Michener dissimilarity (boolean).
+- sokalsneath        the Sokal-Sneath dissimilarity (boolean).
+- sqeuclidean        the squared Euclidean distance.
+- yule               the Yule dissimilarity (boolean).
+++------------------+-------------------------------------------------+
++|braycurtis        | the Bray-Curtis distance.                       |
++|canberra          | the Canberra distance.                          |
++|chebyshev         | the Chebyshev distance.                         |
++|cityblock         | the Manhattan distance.                         |
++|correlation       | the Correlation distance.                       |
++|cosine            | the Cosine distance.                            |
++|dice              | the Dice dissimilarity (boolean).               |
++|euclidean         | the Euclidean distance.                         |
++|hamming           | the Hamming distance (boolean).                 |
++|jaccard           | the Jaccard distance (boolean).                 |
++|kulsinski         | the Kulsinski distance (boolean).               |
++|mahalanobis       | the Mahalanobis distance.                       |
++|matching          | the matching dissimilarity (boolean).           |
++|minkowski         | the Minkowski distance.                         |
++|rogerstanimoto    | the Rogers-Tanimoto dissimilarity (boolean).    |
++|russellrao        | the Russell-Rao dissimilarity (boolean).        |
++|seuclidean        | the normalized Euclidean distance.              |
++|sokalmichener     | the Sokal-Michener dissimilarity (boolean).     |
++|sokalsneath       | the Sokal-Sneath dissimilarity (boolean).       |
++|sqeuclidean       | the squared Euclidean distance.                 |
++|yule              | the Yule dissimilarity (boolean).               |
+++------------------+-------------------------------------------------+
+
+commit 16421ac2ce68a85c05e6eb222f9e4fa37f81cc11
+Author: damian.eads <damian.eads@localhost>
+Date:   Mon Jun 9 05:55:44 2008 +0000
+
+    Moved distance functions to new module.
+
+diff --git a/scipy/cluster/distance.py b/scipy/cluster/distance.py
+--- /dev/null
++++ b/scipy/cluster/distance.py
+@@ -0,0 +4,25 @@
++ pdist              computes distances between each observation pair.
++
++Distance functions between two vectors u and v
++
++ braycurtis         the Bray-Curtis distance.
++ canberra           the Canberra distance.
++ chebyshev          the Chebyshev distance.
++ cityblock          the Manhattan distance.
++ correlation        the Correlation distance.
++ cosine             the Cosine distance.
++ dice               the Dice dissimilarity (boolean).
++ euclidean          the Euclidean distance.
++ hamming            the Hamming distance (boolean).
++ jaccard            the Jaccard distance (boolean).
++ kulsinski          the Kulsinski distance (boolean).
++ mahalanobis        the Mahalanobis distance.
++ matching           the matching dissimilarity (boolean).
++ minkowski          the Minkowski distance.
++ rogerstanimoto     the Rogers-Tanimoto dissimilarity (boolean).
++ russellrao         the Russell-Rao dissimilarity (boolean).
++ seuclidean         the normalized Euclidean distance.
++ sokalmichener      the Sokal-Michener dissimilarity (boolean).
++ sokalsneath        the Sokal-Sneath dissimilarity (boolean).
++ sqeuclidean        the squared Euclidean distance.
++ yule               the Yule dissimilarity (boolean).

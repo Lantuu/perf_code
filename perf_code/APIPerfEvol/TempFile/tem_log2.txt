@@ -1,0 +1,29 @@
+commit d6dbc80be14f52fe786fd1bb50882f01b8b0434a
+Author: Olivier Grisel <olivier.grisel@ensta.org>
+Date:   Tue Oct 12 17:10:00 2010 +0200
+
+    more precise doc on SVM complexity
+
+diff --git a/doc/modules/svm.rst b/doc/modules/svm.rst
+--- a/doc/modules/svm.rst
++++ b/doc/modules/svm.rst
+@@ -183,2 +191,4 @@
+-solver used by this implementation scales with the cube of the number
+-of training vectors (:math:`O(k^3)`).
++Also note that for the linear case, the algorithm used in
++:class:`LinearSVC` by the `liblinear`_ implementation is much more
++efficient than its `libsvm`_-based :class:`SVC` counterpart and can
++scale almost linearly to millions of samples and/or features.
+
+commit 4daa85cc692459d018e50e171de2cc3148609022
+Author: Fabian Pedregosa <fabian.pedregosa@inria.fr>
+Date:   Tue Oct 12 10:44:25 2010 +0200
+
+    Add a note on complexity for SVMs.
+
+diff --git a/doc/modules/svm.rst b/doc/modules/svm.rst
+--- a/doc/modules/svm.rst
++++ b/doc/modules/svm.rst
+@@ -176,0 +183,2 @@
++solver used by this implementation scales with the cube of the number
++of training vectors (:math:`O(k^3)`).

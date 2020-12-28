@@ -1,0 +1,8 @@
+{
+    "test_files": {"matched": "D:/workspace/pychram/Bert2/GLUE/glue_data/MyData/NLI_Data/esmi_data/allDataset_c/dataSet/test_data.pkl"},
+    "labeldict": {"entailment": 0,
+                  "neutral": 1,
+                  "contradiction": 2},
+    "output_dir": "D:/workspace/pychram/Bert2/GLUE/glue_data/MyData/NLI_Data/esmi_data/allDataset_c/result",
+    "batch_size": 32
+}

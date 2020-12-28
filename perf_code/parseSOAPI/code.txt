@@ -1,0 +1,2598 @@
+n_targets 
+speed-up memory-intensive 
+n*log 
+high-dimensional 
+Not-appendable PyTables 
+cholesky 
+ParallelDynamicStitch 
+'block 
+scipy.fftpack.fft 
+precomputed 
+v0.19 convolve 
+einsum ~160ms 
+CSR/CSC 
+numpy 
+searchsorted 
+`` to_numpy `` *may* NumPy 
+`` 
+B-splines -- 
+`` `` `` lstm cudnn 
+Iteratively DataFrame 
+divide-and-conquer 
+enhancingperf 
+log-likelihood 
+applymap 
+'sag 'saga 
+6-7 
+defun defun map_fn 
+`` df.sort_values ascending=False .head `` 
+tf.contrib.eager.defun `` map_fn 
+RNNs 
+`` numexpr `` `` `` `` 'numexpr `` numexpr 
+invert=true `` 
+cudnnlstm 
+`` 'gelsy `` 
+convolve2d 
+diag_indices 
+nndsvda 
+harter 
+cdist 'sokalsneath 
+`` np.in1d invert=True `` `` np.invert in1d `` 
+NumPy 
+jacobian 
+`` `` `` deep=True `` numpy 
+convolve ~500 
+dfun 
+`` df.sort_values ascending=True .head `` 
+Iterator.get_next 
+non-zero Jacobian 
+Jacobian 
+binary_repr base_repr 25x 
+1000 
+dtypes itertuples namedtuples `` iterrows `` 
+PyTables data_columns on-disk 
+protos 
+1-dimensional ndarray 
+dct 
+Jacobian non-zero *each* 10 Jacobian 
+ndindex 
+`` `` 
+dtypes 
+clip_by_norm 
+writing/reading 
+logits softmax logits 
+Hermitian real-valued 
+numpy memory-efficient 
+numarray string_ unicode_ numpy.char numpy.core.defchararray 
+k-means++ 'random ndarray k-means++ ' k-means++ k-means++ k-mean 
+`` `` `` gru cudnn 
+20 
+softmax 
+svd 
+pre-sorted 
+non-concatenation 'outer 
+dataframe 
+'liblinear 'sag 'saga 
+categories/dtype 
+IndexedSlices tensors 
+crammer_singer 
+time_major 
+`` `` `` 
+presolve presolve 
+'frobenius ' 'kullback-leibler 
+RangeIndex 
+C-ordered 64-bit 
+n_samples n_features 
+PyTables 
+enhancingperf.eval 
+infer_datetime_format=true often-times 
+datetime 
+'optimal ' 
+LinearNDInterpolator NearestNDInterpolator 
+np.amin darr np.asarray darr .min 50 __array_wrap__ 
+3-d 681x50x60 681 .csv 19 28 
+to_datetime vectorised 
+2-dimensional numpy.take 
+1,000x3 
+np.fill_diagonal np.zeros k-1 *k k*k 
+pd.unique Numpy 
+groupby 'CMonth 'Member .head 
+np.searchsorted np.searchsorted 0.5,1.0 0.5 1.0 
+scipy.spatial.KDTree and/or scipy.spatial.cKDTree i.m.o 
+bisect.bisect 10 numpy.searchsorted 
+np.searchsortedmight NumPy 
+df.astype .apply x.str.len .max .max applymap 
+iteritems iterrows 
+ineffeciency .apply .. 
+ayhan groupby ... value_counts ... 
+groupby df1 
+~20-30 `` np.isin `` 
+sklearn.linear_model.LogisticRegression sklearn.svm.LinearSVC liblinear libsvm efficients scikit-learn 
+1-dimensional scipy numpy.take 
+pandas.eval ast.literal_eval 
+‘ ’ dataframes 
+groupby intersect1d 
+scipy.interpolate.UnivariateSpline 
+np.einsum np.matmul 
+~3.5 
+.reset_index groupby 
+MaxU set_value .loc 
+einsum np.dot 
+df.index.get_level_values 'date .unique melbay 
+day_1 dt.date.today pd.to_datetime 'today day_2 dt.date.today dt.timedelta day_2 day_1 pd.DateOffset days=1 
+numpy.sort dataframe dataframe 
+numpy.cumsum numpy.digitize 
+Scipy linalg.solve sym_pos p.d.. 
+pd.to_datetime '-'.join 'h3 'h2 'h1 .values.astype 
+dtypes np.in1d ... 
+np.sort ... numpy 
+iterrows axis=1 
+AndyHayden 3992 77 groupby 300x 
+leastsq Dfun 
+csr_matrix as_strided 500000 
+itertools.groupby 
+column-wise row-by-row 
+NumPy np.convolve y_avg 
+jezrael 20 1000 dataframe 10 
+.apply non-vectorized 
+np.in1d df.values .sum numpy.in1d np.count_nonzero 
+iterrows row-wise 
+np.searchsorted disscused 
+.apply iterrows list-comprehension Cython `` `` pandas/numpy 
+SSMK applymap hash_file.astype .apply x.str.strip 
+DataFrame.astype Series.to_csv 
+row-wise np.where vectorised 
+pd.concat .astype 'category axis=1 
+inner1d numpy.core.umath_tests inner1d inner1d np.einsum 
+pandas.eval DataFrame.eval 'Experimental 
+numpy.einsum `` `` optimize=True 
+chunksize pd.concat 
+pd.concat axis=1 non-overlap 
+interested- numpy.einsum 90 
+einsum.py optimize=True numpy.tensordot einsum 
+code-wise 
+np.vectorize np.apply_along_axis `` `` 
+to_datetime NaT Series.le 
+tf.map_fn tf_minimize Tensorflow 
+coo_matrix csr_matrix csc_matrix 
+sorted_a a.argsort axis=0 insertion_points numpy.searchsorted sorted_a .ravel sorted_a insertion_points 
+pd.unique df.values.ravel 
+idxmax 20K 
+... df.sort_values 'Power .groupby df.DateTime.dt.to_period .last 
+loadtxt 
+scipy.spatial.distance.cdist numpy 
+.where .apply if/elses .where 
+.at .iat .loc .iloc scalars 
+np.amax np.amin 
+np.where vectorised 
+pd.to_datetime 'q_date .apply x.strftime ... 
+non-zero np.take 
+coldspeed 
+groupby itertools.count 
+dtype 0,0 
+`` DataFrame.append `` 
+lookup2 .map .apply 
+'UTC pd.to_datetime 'UTC unit= errors='coerce .dt.tz_localize 'UTC 
+vectorizing linalg.inv ufunc nd-array 
+`` `` pd.to_datetime df.unix_ts unit= 's timeit df.Test.dt.date 18.9 370 
+df.drop .append df.loc .apply '.join .rename .sort_index ... w/e 
+monthid Datetime pd.to_datetime elig 'monthid format= 
+concatenating pandas.concat concat dataframe `` `` dataframe 
+func2 einsum einsum 
+numexpr numba Cython NumPy scipy 
+'cached 
+numpy.linalg.multi_dot 
+pd.concat list_of_frames 
+groupby mutliIndex 
+Performance-wise .iloc 
+Timestamp .apply 
+numpy.einsum 
+strings/values dataframe 
+numpy.loadtxt 
+pd.to_datetime cython Timestamp 
+time_stamps .apply convert_to_python_datetime .values pd.to_datetime time_stamps 
+fmin linalg.norm Jacobian 
+`` `` Nelder-Mead fmin -- scipy Nelder-Mead fixed-size .05 .00025 
+rnn_cell.zero_state dynamic_rnn 
+1E8 np.einsum i- dtype=np.uint64 10 15ms 
+np.in1d 'name 'sam 'ruby .sum 
+np.apply_along_axis NumPy 
+128MB np.loadtxt 
+side='left np.searchsorted 
+findall .apply 
+brentq 
+jacobian leastsq 
+sum-reduction one-loop matrix-multiplication np.tensordot 
+cdist pos1 pos2 np.sqrt -func **2 .sum 
+scipy.spatial.distance.pdist scipy.spatial.distance.squareform 
+einsum vf vf 
+itertuples DataFrames 
+`` `` 
+np.einsum 
+EricDuminil np.take 
+np.sum diff*diff,1 np.einsum 'ij ij- 
+np.array numpy.searchsorted 
+NumPy .iloc .loc dataframe dataframe 
+5.3 
+groupby for-loops 
+np.take np.arange array.size 
+.loc .loc .iloc .ix 
+data-frames concat 
+to_datetime strptime 
+to_datetime strftime 
+convolved 
+to_datetime to_period set_index reindex strftime reset_index 
+scipy.interpolate.interp2d 
+docs.scipy.org/doc/numpy/reference/generated/numpy.einsum.ht rank-two tensors np.dot np.einsum 'ij kl- 'contracted 
+datetimes pd.to_datetime df.A errors='coerce NaT datetime notnull datetimes 
+recursive_method DataFrame pd.concat recursive_method 
+dtypes 'gamma pd.Categorical.from_codes df.beta categories= `` `` `` `` 
+Hermitian -- eigvalsh eigvals 
+i.e 
+cython similar-style numpy .apply c_long 
+iterrows DataFrame 
+tf.map_fn tf.math.unsorted_segment_mean 
+c_ 
+KDTree cKDTree 
+y1 KDTree 
+lu_solve solve_triangular 
+np.searchsorted 16x np.nanargmin lat-x **2 
+to_datetime datetime dtype dropna dt.year 
+PaulH .apply for-loop 
+3.6.0 2.7 
+0.13.1 
+`` JIT-compiled `` groupby ... .sum 
+row.iterrows 
+groupby pivot_table groupby 
+.apply .transform in-built optimised 
+DataFrame get_value 
+astype 
+scipy.linalg.svd full_matrices=True 
+10x 100x 
+.ix 18x .iloc 
+dynamic_rnn dynamic_rnn 
+scipy.spatial.distance.pdistbut 
+numpy.isin 
+NumPy vectorize apply_along_axis 
+vectorised add/subtract/div 
+ifft 
+split-apply-combine groupby 
+pd.concat df_small df_small axis=0 ignore_index=True 
+np.take performance-wise 
+.iloc 
+np.einsum 'ai ak- ijk np.tensordot , *Ab , axes= 
+utilise infer_datetime_format pd.to_datetime 
+iloc conner.xyz 
+liuyihe 1999 np.in1d 
+’ dtype=object ’ ’ high-level apply/map numpy 
+performance/ease 
+numpy multiprocessing.Array 
+scipy.integrate.ode scipy.integrate.odeint scipy scipy.integrate.solve_ivp //docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html 
+np.partition np.sort 
+numpy.linalg.eig scipy.linalg.eig 
+20x+ einsum built-in np.corrcoef 
+df.iloc 61:64 df.iloc 61:64 .astype .apply 
+WarrenWeckesser 2:3 2x1 stackoverflow.com/questions/11885503/… numpy 
+numpy.where 
+sort=False groupby DataFrameGroupBy.ffill 
+for-loop np.searchsorted 
+concat DataFrames to_excel 
+np.take :100000 num_mask axis=1 
+vecotrised .apply 
+optimised 
+str.replace 
+50 000 crossentropy tf.nn.softmax_cross_entropy_with_logits 12 P100 
+nevsan np.cumsum np.einsum 
+sklearn.svm.SVC 
+numpy/scipy `` www.scipy.org/ParallelProgramming 
+... axis=1 pd.Series DataFrames 
+pd.DataFrame.append list.append 
+coo_matrix position-based nonzeros sp.hstack 
+np.apply_along_axis np.vectorize 
+chol2inv 
+dimensionality-reduction memory-efficiency np.searchsorted 
+interp2d arbitrary-shaped 
+.isin .apply .map 
+.iterrows .itertuples .iterrows 
+numba pandas.eval Dataframes 
+groupby Multiindex 
+Serialize pd.concat 
+find_peaks 
+.iterrows .itertuples 
+numpy.take i-2 i+3 
+`` numpy `` einsum 
+piRSquared 
+pd.unique dtypes 
+... tradeTime datetime pd.to_datetime datetime.datetime.now 
+'diff .groupby level=0 .mean 
+iterrows timedelta mod3 PAS_DATE ceil timedelta PAS_DATEs timedelta 
+timeit df.groupby .size .apply df.groupby .size .sum *100 1000 1.82 timeit df.groupby .size .divide .notnull 1000 555 
+list.append pd.DataFrame.append Vectorised 
+-- 
+date_parser kwarg read_csv to_datetime date_parser 
+tensordot 
+numpy.loadtxt ... 
+pandas.DataFrame.iterrows pandas/python `` `` 
+np.loadtxt np.genfromtxt NumPy csv.reader 
+dataframes 
+np.apply_along_axis apply_along_axis 
+'count_var1 df.num_var1 10 .groupby 'agg_var1 'd_var1 .transform 'size 
+NumPy np.einsum average-reduction sum-reduction scaling-down 
+scipy.sparse.csc_matrix .mean 
+linalg.cholesky linalg.inv 
+tf.while_loop tf.map_fn tensorflow 
+solve_triangular overwrite_b=True check_finite=False 
+numpy np.digitize 
+for-loops .iloc 
+np.isin A==10 
+super-optimized NumPy lil_matrix.sum csr_matrix hpaulj 
+`` applymap `` 
+`` Index.set_value `` 
+tf.custom_gradient map_fn 
+1e-8 epsfcn scipy.optimize.leastsq 
+numpy.apply_along_axis 
+.groupby .map 
+pandas.read_csv np.loadtxt 
+jackiegirl89 
+df1.index df1 idx1 concat idx1 
+np.searchsorted oldval 'left np.searchsorted oldval 'right re-use np.searchsorted oldval 'left 
+pd.DataFrame .stack .groupby level=1 .sum .to_dict 
+x1Vals np.dot XValsOnly newweights 
+dask 
+.apply juanpa 
+drop_duplicates DataFrame 
+tf.matmul a_is_sparse b_is_sparse SparseTensors Tensors 
+csr_matrix numpy csr_matrix 
+einsum 4.25 N=100000 
+groupby drop_duplicates subset= 'id 'environment 'request_id 
+DataFrame.apply Series.sum dataframe DataFrame.sum 
+groupby/rank -- groupby groupby 
+groupby np.where 
+numpy dataframe 
+majority_vp df.voting_majority_status_fk df.other .vp_fk.unique minority_vp df.voting_majority_status_fk df.other .vp_fk.unique dvc_vp numpy.intersect1d majority_vp minority_vp assume_unique=True 
+C8H10N4O2 np.searchsorted 
+vectorize numpy-style 
+scipy.fftpack.fft pyFFTW 
+groupby dataframes 
+298 ... 299 y.view type=np.recarray 300 z.A z.A.F recarrays 'field arry.field z.A.F 'looks 
+einsum numpypy 
+pd.DataFrame.apply pd.Series 
+.apply dataframe 
+PaulBrodersen 
+interp2d RectBivariateSpline 
+arr*mask .sum np.einsum 'ij ij- np.einsum 
+log_r.index west_index.index datetimes datetimes to_datetime 
+NumPy argsort 
+odeint 
+groupby dataframe groupby 
+Timestamp 
+dataframe 100k 
+performance-wise groupby+1 
+numpy.digitize numpy.searchsorted 280 
+2x1 2x1 
+for-loop .replace .dropna iloc 
+TensorFlow tf.nn.softmax_cross_entropy_with_logits 
+extra-efficient 
+ashtoningly scipy.spatial.distance.pdist 'correlation 
+pandas.concat -- concat axis=1 
+.apply pd.Series pd.DataFrame df.apps.tolist 
+pd.Datetimeindex 'timestamp .hour .apply 
+pd.concat ... .mean ... 
+~3 numpy.apply_along_axis 1000x1000 
+np.einsum mulitplied np.dot 
+einsum ~2x kron 
+groupby .apply 
+'supply_ended pd.to_datetime 'ship_string pd.to_timedelta 'days_supply 
+axis=1 iterrows 
+scipy.linalg.cho_solve 
+fmin compare_images init_guess 
+... .stack .apply 
+... csr_matrix 10 ... 
+Ophion `` np.einsum np.sum `` ... 
+`` `` numba scipy better..and np.sort 
+scipy.ndimage.map_coordinates scipy.interpolate.interp2d 
+elabortae .iloc .ix 
+np.take nD 
+.iterows .apply 
+is_there_a_strike_nearby searchsorted 10km delta_Lat 0.09 
+pattaern occurencies np.mgrid numpy.in1d 
+`` `` pd.concat axis=1 .apply axis=1 `` `` for-loop 
+Neolex 
+softmax_cross_entropy_with_logits_v2 
+haversine 
+np.tensordot 
+col1 'col1 .unique .tolist 
+4000x4000 10 loadtxt 
+groupby itertools.chain 
+NumPy np.asarray np.searchsorted 
+evil_inside groupby 
+pandas.DataFrame.groupby groupby 
+50 
+vectorize apply_along_axis 
+apply_along_axis 
+df.plot 0,5 style= df.plot 0,5 kind='scatter groupby 
+pd.DataFrame.iterrows 
+scipy.optimize.least_squares e.g . lsqnonlin 
+'col1 .loc ... iloc data-frames index-alignment 
+numpy.linalg.inv solve_triangular 40x40 
+pd.concat e.g 
+np.tensordot i.e 
+np.tensordot axes=3 np.einsum `` abcijk ijkd `` 
+... einsum ... 
+numpy.digitize -- 
+x.rolling window=60 .apply my_ols 
+itertuples iterrows stackoverflow.com/a/47604317/6735980 
+.apply .nonzero 
+mean_bgr masked_img* ... .sum axis= 0.1 255. np.einsum 
+df_group df.groupby 'ID 'SCORE .nlargest 
+np.einsum np.dot 
+py-faster-rcnn gt_overlaps scipy.sparse.csr_matrix i.e 
+cumcount reindex 
+einsum np.sum 
+np.argpartition np.take 
+scipy.spatial.distance.cdist SciPy scipy.optimize.linear_sum_assignment SciPy 1.4 
+pd.merge pd.concat 
+VictorNogueira ... 
+np.tensordot np.dot 
+'dateTimeFormat pd.to_datetime 'date dayfirst=True 
+Python-level 
+1.5M DataFrame 
+cdist 
+to_datetime //strftime.org/ 
+jaw-droppingly 10 500k 10 
+CallCentreExecutive 
+.drop_duplicates .groupby .head 
+groupby 'ID sorted=False 
+numpy in1d 
+row-wise 
+.apply 
+np.reshape pd.concat dataframes 
+scipy.signal.convolve 
+tf.reshape tf.transpose logits 
+groupby cumcount 
+nunique 
+under-the-hood 
+RegularGridInterpolator parallelizes 
+hpaulj np.einsum jk- 
+csr_matrix csc_matric 
+.iloc .loc look-up .ix 
+store.put 'df table=True dtypes PerfWarning 
+np.apply_along_axis 15 
+iteration.The 
+~500MB loadtxt ~900MB genfromtxt ~2.5GB 
+np.convolve 
+np.sort sort_values 
+pdist 'cityblock row/col searchsorted 
+column-wise row-wise applymap 
+DataFrame.iterrows 
+tensordot tensors 
+to_datetime Series.dt.strftime Y- d- 
+numpy/scipy scipy.spatial.distance.cdist 
+dataframes iterrows 
+.groupby columnname .size 
+fsolve mfun np.ones nrows 50 args=coefs method='broyden1 
+drop_duplicates groupby idxmax 
+np.where iloc 
+to_datetime Series.dt.day_name 
+100 000 928 1.55 
+concat dataframes pd.concat 
+JoePatten .apply .itertuples 
+10x vectorised cythonised 
+value_counts groupby i.e 
+groupby ... .apply ... non-performant 
+Wen-Ben row-wise `` `` 
+performance-wise np.take 
+fortran scipy.linalg.eigh 
+np.loadtxt numpy 
+genfromtxt dtype loadtxt 
+non-appendable 
+pd.to_numeric 
+.apply ... axis=1 df.iter* 
+x.values.tolist df.set_index 'Key .stack .groupby 'Key dataframes 
+RegularGridInterpolator -- 
+Cython 
+concat-er 
+pd.DataFrame.rank 
+iter np.loadtxt iter 
+smart_open gensim.models.KeyedVectors.load gensim.models.KeyedVectors.load_word2vec_format 
+csc_matrix column-based 
+groupbys 
++= 
+non-negative sp.optimize.nnls 30x 
+DataFrame.nlargest iterrows axhline 
+NumPy 1.6 np.einsum 
+FooBar df1.reset_index 'quarter .join df2 .set_index 'quarter append=True better/more ... 
+Stability-wise unit_matrix 
+tnink groupby ... 
+one-off pd.to_datetime 
+solve_ivp t=1 
+fromiter 
+numpy apply_along_axis 
+thanapply 1000+ 
+concat concat 
+scipy.optimize.linprog scipy CVXPY 
+Initializing sparse.lil_matrix 
+groupby ... .apply ... 100x 
+scipy.interpolate.RegularGridInterpolator 
+datetime Timedelta 
+Numpy self-multiplication 1000x1000 
+numpy.searchsorted bisect.bisect_left datetime 
+tf.nn.sparse_softmax_cross_entropy_with_logits 
+pd.to_datetime df_train 'DateOfDeparture .dt.weekday 
+concat MemoryError 
+TensorFlow matmul NumPy 
+numpy docs.scipy.org/doc/numpy-dev/release.html multi_dot numpy 
+set_index better.. 
+matmul 
+DanPatterson np.einsum 
+to_datetime pd.Timestamp 
+timeit df.index.get_level_values level='co .unique 1000 851 timeit df.index.levels df.index.names.index 'co 100000 3.08 
+vectorise 
+numpy einsum numpy np.einsum 
+One-line numpy.binary_repr 
+io.open np.loadtxt np.genfromtxt quick-and-easy 
+recursing data.groupby .apply get_count 
+numpy built-in 
+einsum 
+computional iterrows 
+numpy.take numpy.choose 
+: nth_element : partial_sort 
+take_along_axis 
+numpy.linalg.norm elementwise numpy.linalg.norm einsum 
+not-always-correct 
+dask paralellise .apply 
+np.loadtxt 
+df.T 
+JohnClements pd.to_datetime 
+pd.value_counts 2.57 829 
+groupby sort_index dataframe 
+1000*1000 eigsh svds svd ~3 100*100 svd ~4 ~1.5 
+stats.rv_continuous 
+semivariance np.linalg.inv semivariance .dot 
+2-byte numpy 
+pre-sorted np.array idx1=np.r_ np.searchsorted x.shape numpy_app1 
+clip_upper 
+scipy.optimize.linprog 
+NumPy searchsorted cumsum user2357112 timeit 
+strftime 39 to_datetime 
+`` `` test_elements np.isin 
+loopss iterrows 
+groupby WeekNum 
+dt.hour datetime pd.to_datetime 
+histc numpy.searchsorted numpy.searchsorted 
+combine_function 
+scipy.integrate.ode scipy.integrate.solve_ivp SciPy 8257 
+date-time pandas.to_datetime 
+pd.DataFrame.apply 
+numpy good_elements_index numpy.array numpy.isin mrcl `` `` 
+BiRico dtypein strutured dataframe 
+Series.map 
+groupby timeit 
+vectorize `` `` vectorize `` `` 
+.iterrows 
+pd.concat pd.concat list_of_dataframes 
+optimize.leastsq 
+WeNYoBen iloc np.where 
+10000 5x5 einsum 
+tf.nn.softmax_cross_entropy_with_logits softmax cross-entropy 
+pd.to_datetime dtype 
+applymap applymap .str.len 
+vectorised applymap 
+IanThompson .iloc .ix 
+searchsorted np.unique 
+apply_along_axis vectorize apply_over_axes vectorizes 
+pd.unique value_counts np.unique np.bincount 
+groupby 
+DataFrame DataFrame 
+set_index sort_index `` `` DataFrame sub-frames .groupby 
+pandas.to_datetime 
+np.searchsorted np.bincount 
+concat set_index 
+dataframes different-sized 
+coo_matrix ill-suited 
+scpiy groupby 
+dataframe time.Using timeit 1000 511 1000 1.29 concat pd.concat 
+column-wise DataFrame.apply 
+.apply pd.Series ... 
+stackoverflow.com/questions/41985566/… .map .applymap df.replace 
+elementwise 
+numpy.argpartition 
+dependant fully_vectorized einsum-options 
+concat concat DataFrame 
+substrings 
+.apply DataFrame 
+groupby .size 
+`` vectorize `` np.vectorize numpy `` `` 
+timestep scipy.interpolate.interp2d 
+np.searchsorted 20x 
+groupby+cumsum .apply 
+np.arange 0.5 10.5 0.4 
+pd.DataFrame.append list.append pd.concat 
+reindex pd.concat 
+scipy.linalg.pinv 
+~16s 
+np.concatenate pd.concat 
+sort_index groupby 
+numpy.loadtxt 2-3 
+great.Much datetime64 
+scipy.sparse.csc_matrix submatrices 
+lil_matrix uniqueUsers uniqueItems 
+pd.concat df.ix 
+pd.to_numeric pd.to_datetime ... convert_objects 
+10GB twice… 
+Jezrael np.unique np.cumsum 
+bigbug df.index.get_level_values 'STK_ID .unique df.index.levels 
+5-20 np.in1d 
+20 GroupBy iloc 
+scipy.signal.correlate scipy.signal.fftconvolve i.e 
+csr_matrix coo_matrix concatenating scipy.sparse 
+numpy .dot 
+.groupby dataframes 
+scipy.sparse.linalg.eigs scipy.linalg.eigvals 
+w/o index_ dataframe pd.merge pd.concat 
+python-based `` `` 
+csr_matrix lil_matrix 
+apply-ing 
+Numpy searchsorted 
+MultiIndex groupby 
+DataFrameGroupBy.resample DatetimeIndex groupby 10 np.sqrt 
+DataFrame.append list.append DataFrame.append DataFrame.concat 
+np.einsum element-wise 
+DataFrame.iterrows slowiest 
+x=x.append rannge df.groupby 'Col1 .apply 
+KristopherIves tf.map_fn `` `` 
+iterritems concat 
+NaNs 
+iterrows pool.apply 
+pd.Series Python-level dataframes 
+.apply .applymap 
+groupby 15 selection-based 'class .mean 
+tocoo coo_matrix ... 
+smci dataframes concat 
+user1111 
+MaxU 
+iloc dataframe //pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html 
+.groupby .apply 
+set_index pivot_table 
+notnull DataFrame groupby df.A.notnull .groupby level=0 .transform 'any 
+30x csr_matrix 
+drop_duplicates pd.unique 
+... tensordot 
+InvalidSchema iterrows 
+Zhubarb idxmin 
+generalise pd.concat np.concatenate 
+scipy.sparse.csc_matrix csr_matrix 
+.loc .iloc .ix 
+usethedeathstar np.dot 21474836 200 memmap 200 10 ndarray 36.5s np.einsum 'ij 15s 
+.nlargest .sum level=0 dataframe 
+.astype .apply numpy 
+groupby groupby Vectorized 
+ButI groupby 'id -- 
+to_frame pd.concat *100000 .reset_index drop=True 139 timeit df.to_frame 'Cart 100 4.38 140 timeit pd.DataFrame Cart=df 100 4.52 
+str.split np.where 
+np.take axis=0 
+... np.searchsorted 
+NumPy pd.DataFrame.iloc label-based 
+14 .apply 
+.append pd.concat 
+.apply axis=1 
+mean~ np.dot np.einsum~ 
+np.apply_along_axis my_sum a.T .T np.apply_along_axis my_sum 
+Series.iat Series.iloc 
+.applymap ... 
+numpy-only einsum cdist 
+np.einsum 'ijk ij- a.reshape num_vertices num_vert_coords num_pca_dims 
+scipy.sparse.coo.coo_tocsr ... np.sort 
+pd.concat dict_of_series axis=1 pd.Index.union 
+applymap element-wise applyer df.groupby 'type .apply x.applymap np.log2 np.log2 df._get_numeric_data 
+numpy pd.concat 
+np.apply_along_axis if-statements 
+np.apply_along_axis ~2.6s 
+.iterrows 20 .itertuples 
+`` `` colN cols_ToOneHot label_encoder_dict colN np.vectorize self.unkSymb le.classes_ data_cat.iloc np.apply_along_axis data_cat.iloc , data_cat.iloc le.transform data_cat.iloc , 
+tf.device '/cpu:0 tf.matmul 
+scipy.signal.fftconvolve np.convolve 
+Series.copy paramater 
+inner1dis np.einsum 
+0-N 
+dayfirst=True to_datetime 
+jezrael 
+np.isin 10+ 
+-tf.reduce_sum y_ tf.log cross-entropy tf.nn.softmax_cross_entropy_with_logits y_ 
+'duration 
+groupby payment_status payment_status_detail payment_date_created 
+einsum 2-3 
+df.reset_index level=0 .sort_values 'idx_0 'value_1 ascending= 1,0 .set_index 'idx_0 append=True .swaplevel ... 
+scipy.linalg.solve_banded 
+`` KeyWords_in_Array `` `` KeyWords_in_Array_wo_insurance `` .apply 
+ndarrays 
+.apply x.name x.index 
+iterrows pythonic 
+timeit 'diff .groupby level=0 .mean wierdly 
+pd.cut non-deterministic 
+10 
+scipy.sparse.dok_matrix pandas.DataFrame.to_dict 
+30x 
+.loc .iloc col_name 
+liliscent pd.concat 1000 ignore_index=True 50 concat ... 
+.iloc .values .loc .values .loc .values zero-based 1-based dom_table_df.index 
+scipy.signal.resample 
+'used_at .apply datetime.strptime `` Y- m- `` to_datetime vectorised 
+eigvalsh eigenvectors 
+np.einsum extraneously 
+itertuples iterrows 
+.apply pd.Series pd.get_dummies pd.DataFrame 'labels .str.split 'the .va lues.tolist 
+tf.map_fn tf.while_loop 
+nltk.stem.SnowballStemmer sklearn.feature_extraction.text.TfidfVectorizer effcient 
+Numpy 1.03x scipy 
+multiIndexed dataframe df_pivot1.columns.get_level_values .unique 
+pandas.to_datetime x-axis matplotlib spacing/rotation fig.autofmt_xdate 
+datetime pd.to_datetime anky_91 
+pd.concat ... ignore_index=True 
+.groupby pre-computes 
+str.len 
+groupby aggreagte 
+pd.notnull df.columns iloc 
+EricHansen df.index.get_loc np.searchsorted 
+1.3-128x np.partition 
+hpaulj scipy.signal.resample 
+Cython scipy.spatial.distance.pdist Cython np.abs 
+itertuples iterrows i.e 
+tickCount pd.DataFrame 'year 2011 2012 'value 5000 10000 'date pd.to_datetime 'year format= alt.Chart .mark_line .encode alt.X 'date timeUnit 'year alt.Axis tickCount alt.Y 'value 
+groupby Nickil 
+pd.DataFrame.apply column-wise 
+BSpline 
+numpy.searchsorted 
+coords row-wise 
+dataframe groupby 1000 pd.concat *1000 ignore_index=True 3.6 gropuby 29 
+well-known numpy.in1d searchsorted 
+.loc 
+SettingWithCopyWarning DataFrame.copy 
+.groupby 'name sort=False .ngroup ... 
+scipy.cdist numpy.einsum 
+10x einsum 
+NaNs dropna 
+sklearn.svm.LinearSVC hyperopt-sklearn 
+searchsorted 
+numpy.dot numpy.einsum 
+np.partition 
+np.intersect1d ... 
+numpy.sort 
+cumsum groupby 
+np.einsum ii- np.dot 
+df.set_index `` `` .groupby `` `` `` `` `` `` pd.TimeGrouper 'Dem 'Forecast .sum .unstack fill_value=0 .stack 
+pandas.DataFrame.eval 
+pd.concat `` sub-dataframes `` 
+apply_along_axis corrcoef 
+.apply for-loop iterrows for-loop .apply 
+numpy.apply_along_axis numpy.random.shuffle 
+concat df.join df1 
+PaulPanzer np.tensordot 
+1000x 
+coo_matrix performance-wise helpful/necessary 
+fuzz.partial_ratio scalars 
+pandas.concat NumPy 
+scipy optimize.fmin 
+np.amax Utfm =0 
+sklearn.linear_model.Ridge ‘ ’ ‘ svd ’ ‘ cholesky ’ ‘ lsqr ’ ‘ sparse_cg ’ ‘ ’ ‘ ’ 
+np.indices np.einsum 
+NumPy `` `` NumPy 
+np.sample np.take 
+simplexes numpy.einsum 
+//stackoverflow.com/a/23303357/901925 
+dataframe 1mio+ 
+hpaulj scipy.sparse coo_matrix lil_matrix csc_matrix csr_matrix compution 
+np.in1d df.index.labels label_of_a label_of_b label_of_c 
+np.where 40 
+vectorised ~170x numpy 
+sort=False groupby 
+iterrows medium.com/ rtjeannier/pandas-101-cont-9d061cb73bfc 
+DataFrames df.stack .groupby level=0 .max 
+sort_values groupby 
+df.loc 
+.groupby ... .apply 
+row-by-row iterrows 
+... i.e 
+.iat .iloc 
+Tavory `` `` .apply .apply ... axis=1 .apply ... axis=0 
+DeepSpace df2 pd.concat *100 dataframes 
+convolve Pythonista 
+alocationg alocates 
+memory-efficient 
+20 datetime pd.to_datetime 
+straightforward/efficient 
+pd.DataFrame.apply myFunc axis=1 
+concat pandas.pydata.org/pandas-docs/stable/… 
+`` `` distrubtion np.searchsorted 
+numpy.loadtxt read_sv a.k.a 
+ArashHowaida `` scipy.fftpack.fft `` 441263 
+list-comprehension .apply 
+DataFrames groupby value_counts DateFrames value_counts groupby 
+PyArray_SimpleNew Cython 
+pd.Dataframe DataTimeIndex pd.to_datetime 
+lil_matrix dok_matrix lil_matrix 
+fmin 
+datetime64 
+Iterating dataframe .iterrows 
+dataframe searchsorted one-time 22M 
+np.searchsorted numpy 
+dtypes to_sparse 
+df.filter ... .groupby 'id .mean 
+pd.concat *50000 
+175 
+numba faster_df_apply DataFrame.apply 
+sub-DataFrames pd.concat 
+cythonised 
+axis=1 
+`` `` searchsorted 
+concat reindex np.tile 
+groupby group.iterrows dataframe 
+np.einsum use-case 
+generality/brevity 
+SmileyProd dataframes 100 1mio 100 96 any/mask 0.7 
+einsum datasizes 
+df.sample 1.0 .groupby 'Group_Id .head 
+Afaik 
+rolling_window NumPy sliding_window built-in 
+40K 100 1000x .apply 
+scipy interp2d 
+'col1 .clip 
+numpy `` numpy/scipy . `` 
+MaxU np.arange groupby 
+pd.to_numeric np.isnumeric 
+dataframe iterrows itertuples for-loops e.g 
+scipy.integrate.odeint Jacobian 
+ipython timeit einsum 
+mahf_i 
+timeit ipython 
+qustion sum-reduction matrix-multiplication np.tensordot 
+eigsh ~4x nonsparse 
+tf.map_fn 
+tensordot 10x M=1000 N=100 
+pd.concat df.append 
+vectorised pd.DataFrame.apply 
+tensorflow.map_fn 
+soluton iloc 
+built-in numpy respresentation dataframe to_numpy numpy dataframe 
+“ numpy/scipy ” 
+DataetimeIndex groupby 
+NumPy 1.9 
+scipy.signal.convolve ... 
+matrix-matrix tensordot 
+einsum tensordot 
+DataFrame.iterrows index-based 
+pd.Series ... 
+– apply_along_axis C/CPython 
+pd.to_datetime dataframe 7.5 
+SciPy 0.19.0 09 2017 scipy.signal.convolve 
+jpp row-wise 
+df.groupby 'group 'age_range .size .to_frame 'count .r eindex MultiIndex.fr om_product 'grou .unique 'age_range .unique 
+pd.concat 20,000 
+sklearn.svm.LinearSVC sklearn.svm.SVC 
+tf.parse_example tf.parse_single_example 
+set_index reset_index ... 
+np.searchsorted B.ts pre-sort 
+0.22 
+elegant/efficient cumsum 
+groupby value_counts DataFrame 
+groupby sort=False 
+pd.concat n-1 DataFrame concat 
+nlargest pir1 
+str.contains 
+ajcr pd.Series 
+’ .iloc .loc 
+np.einsum dist.cdist 
+treddy affine_transform 
+np.loadtxt np.genfromtxt 
+.loc df2 ~df2 column_name .isin column_name .unique np.append 
+'Category e.g 
+.copy 
+ast.literal_eval 
+groupby pivot_table aggreagate DataFrame.squeeze 
+sum-reductions einsum 
+jpp 1mio 100 100 
+memory-saving vectrorized sklearn.feature_extraction.text.CountVectorizer 
+pd.unique C-int Python-set 
+.concat 
+dayfirst parse1 pd.to_datetime parse2 
+df.B df.C 
+xs.append numpy.loadtxt 
+~120x scipy.spatial.distance.cdist 
+np.apply_along_axis -- 
+.apply pd.Series recomenedd 
+df.eval pd.eval 
+statsmodels.regression.linear_model.OLS.fit Moore-Penrose pseudoinverse QR-factorization np.linalg.inv np.linalg.svd numpy.linalg.solve sklearn.linear_model.LinearRegression scipy.linalg.lstsq scipy.linalg.lstsq xGELSD `` V^T·V `` `` V^T·V ^-1· V^T·b `` 
+one-hot tf.nn.sparse_softmax_cross_entropy_with_logits tf.nn.softmax_cross_entropy_with_logitsand 1.0 0.0 ... 
+in1d binMask pandas.Index.get_indexer 
+df.append pd.concat 
+.apply e.g 
+pd.to_datetime year/month/day datetime 
+applymap apply/map 
+scipy.sparse.linalg.eigs eigvals scipy 
+tensorflow einsum 
+groupby concat 
+1684x 
+single-row pd.concat .append 
+vect_foo 
+... scipy.fftpack.fft 
+VikashKumar 
+np.convolve numpy.ndarray.flatten 
+np.searchsorted 
+piRSquared pd.concat 
+np.einsum 'ik kj- ... np.dot ... 
+non-O searchsorted searchsorted 
+repeat-based groupby 
+-- NumPy searchsorted 
+timmings 
+pandas.unique numpy.unique 
+hand-rolled DataFrame 
+LinearSVC LinearSVC 
+Vectorize 
+fftconvolve timeit 
+concat Everila 
+np.random.normal numpy 
+float64 einsum numpy 
+np.take 
+DataFrame.apply str.replace 
+sklearn.linear_model.LinearRegression 
+RNAiMatrix `` `` reprensents sklearn.cluster.SpectralClustering affinity='precomputed 
+pd.Series.apply pd.DataFrame.apply 
+einsum inner1d 
+einsum numpy 
+a_idx b_idx np.searchsorted 
+GPU-cross-compiler/assembler analysers tensors `` `` dense-kernel SMX-local SM_registers 22 GPU_CLKs smart-optimised LRU-aligned SM_L1-cache-line spill-over global_MEMORY memory-access latency-most-friendly SM_Registers matmul re-use latency-hiding global_MEMORY PSPACE .. 600+ GPU_CLKs 
+python-based C++-based 
+numpy.char.array 2-byte 'numpy.vectorize 1-byte 2-byte 
+.apply .astype .astype .apply AttributeError 'Timestamp 'astype ... 
+nlargest prun 15764409 15464352 30.293 
+DataFrame pd.DataFrame pd.concat 
+rolling_covariance iloc multiindex 
+100 
+numpy.digitize 
+np.partition Introselect worst-case 
+np.convolve scipy.signal.fftconvolve 
+Scikit-learn csr_matrix 
+numpy.argsort iloc 
+isPSD eigvalsh 
+.append DataFrame 
+20 10 scipy.spatial.distance.cdist 
+np.tensordot NumPy 
+groupby isnull 
+sklearn.linear_model.Ridge 
+scipy LP-solver scipy optimize.linprog method= ... 
+EdChum .apply ineffcient 
+nlargest nlargest 
+itertuples 10k 100k 
+DataFrame i.e 
+RockyLi Series.str apply-ing 
+RegularGridInterpolator map_coordinates 
+-- map_fn 
+pd.Series 
+iloc numpy 
+Iterator.get_next feed-forward 
+percusse ’ lstsq 
+numpy.einsum Cython 
+pd.eval df.Name 
+: .groupby 'id .rate.cumprod : 
+searchsorted 0.4 
+Support-Vector sklearn.svm.LinearSVC RandomForest sklearn.ensemble.ExtraTreesClassifier 
+sparse_softmax_cross_entropy_with_logits high-efficient non-weighted SparseSoftmaxXentWithLogitsOp SparseXentEigenImpl `` `` 
+optimize=True einsum 
+numba np.in1d 
+.apply for-loops 
+pd.Series tolist DataFrame 
+numba 4,000x cumprod groupby 
+set_index DataFrame 
+datetime drugs_merged 'date_of_visit pd.to_datetime drugs_merged 'date_of_visit 
+ij- einsum np.sum 
+.apply itertuples 
+matrix_rank 
+np.einsum_path 
+np.ones fill_diagonal 
+einsum 20x 
+df.eval pd.eval pd.eval non-trivial 
+df1 pd.concat df1 data.to_frame .T DataFrame 
+pd.concat drop_duplicates 
+set_value use-case 
+to_datetime errors='coerce datetimes NaT 
+vectorizes loop-like 
+tf.gfile.FastGFile tf.gfile.Gfile 
+np.ceil df/step *step 
+np.sort n^2 worst-case np.partition 
+rolling/expanding 
+DataFrame iterrating iterrows 
+tensordot tensors np.tensordot axes= 
+compuation yearday groupby 
+.size nunique 
+TensorFlow fused=True tf.layers.batch_normalization 
+RangeIndex 
+numpy.searchsorted github.com/numpy/numpy/issues/2656 
+for-loop 
+tensorflow 
+.apply .apply ... axis=1 
+apply_along_axis C-loop 
+searchsorted for-loop 
+fftconvolve 
+np.take numba 
+iterrows df.apply 
+df.index.get_level_values reset_index/set_index 
+.loc pd.append pd.concat 
+coo_matrix `` 
+10000 64 100 
+DataFrames groupby 
+pd.concat dataframe 
+Ophion ... ... numpy.einsum 
+loadtxt genfromtxt 
+scipy.integrate.odeint 
+numpy v1.9 built-in np.searchsorted 
+.groupby .diff 
+pd.concat thelist2 json_normalize 
+np.isin np.where 
+argpartition 
+-avoid 
+np.sum b*mask 1,2 /mask.sum 1,2 np.tensordot axes= 0,1 1,2 /mask.sum 1,2 
+scipy.signal.resample //github.com/nwhitehead/swmixer/blob/master/swmixer.py 
+slowier 
+np.einsum squared-summation 
+vectorize np.apply_along_axis 
+np.apply_along_axis single-core np.apply_along_axis … 
+pd.concat df.stack *2 axis=1 .values.reshape 2- numpy 
+300,000 numpy.take numpy.split numpy.take `` `` numpy 
+.. .. built-in 
+correct/better 
+`` `` 44seconds 18seconds eigsh k=2 k=1 `` `` eigsh 44seconds 
+arshajii heapq.nsmallest np.partition 
+numpy 
+str.slice 
+built-in 
+scipy.spatial.cKDTree scipy.spatial.KDTree balanced_tree=False scipy.spatial.cKDTree n_jobs=-1 cKDTree.query p=1 cKDTree.query p=2 
+single-row single-column dataframes pd.concat row-by-row 
+google/stackoverflow 
+reader.read_up_to tf.parse_example tf.parse_single_example enqueue_many=True tf.train.shuffle_batch 
+pd.unique np.unique GROUP_X 
+scipy.optimize.least_squares argmin 
+10 6,4 
+tf.nn.sparse_softmax_cross_entropy_with_logits tf.nn.softmax_cross_entropy_with_logits 
+~For 
+axis=1 row-wise row-wise 
+2-d np.amin 
+.loc 335 126 iloc 
+einsum .sum axis= 2,3 
+reset_index concat 
+iloc set_value get_value 
+cumcount .apply 
+Series.str.split to_datetime errors='coerce NaT 
+.apply pandas/numpy 
+dtype ... for-loop np.vectorize 
+np.matrix np.apply_along_axis 709 
+groupby idxmax 
+numpy.binary_repr numpy 
+numpy.where itterating 
+super-performant pd.Series 
+DataFrame groupby iloc 
+groupby iloc 
+to_records itertuples iterrows 
+.iloc .iat 
+groupby fillna 
+option-1 np.where 'States .isin Atlantic_states 'Atlantic 'Unknown 
+300k 
+iloc iterrows 
+numpy.genfromtxt numpy.loadtxt 
+pd.Series .stack 
+pre-sorted np.searchsorted 
+np.einsum np.dot np.tensordot 
+df3.query `` inter.left inter.right `` .apply 
+datetime pd.to_datetime df.your_col .dt.hour 
+.solve ... spsolve_triangular 
+np.in1d recarray 
+.groupby 
+.resample 
+`` np.einsum 
+map_coordinates FITPACK BivariateSpline scipy.interpolate.interp2d 
+dataframe fsolve 
+matrix_power Sympy 
+polyfit np.apply_along_axis ... 
+multi-threaded eig multi-threading LAPACK/BLAS IPython eig 
+np.searchsorted pd.to_datetime currentdata 'date bet_endt side='right 10 100,000 
+stride_tricks np.einsum 3x3 
+'start grouby groupby dataframes 'duration timedelta 
+np.char.str_len 
+rv_continuous 
+`` `` iterrows 
+tf.sparse_tensor_dense_matmul tf.matmul 
+np.einsum 'ij kl- optimize=True 
+InNoam dicts 
+.T 
+150 multi_dot 
+.apply more/marginally 
+~3500 
+groupby level=0 sort=False 
+np.intersect1d assume_unique 
+s1.values np.einsum 
+0.11 odeint odeint 
+gaussianBlur ... 
+numpy.in1d 
+groupby .transform Cython 
+einsum-based 100x 100k 
+np.vectorize 
+pd.concat DataFrame 
+drop_duplicates set_index 
+merge-kind np.in1d 
+amax amax 
+.apply .apply DataFrame dtype 
+match_id 577 
+np.searchsorted all_idx 
+pd.to_numeric '/ 
+scipy.linalg.solve_triangular numpy.linalg.solve 
+1.7.1 in1d 
+dataframe .loc .iloc 
+numpy einsum x160 
+3.1 
+ignore_index=False ignore_index=True concat 
+DataFrame.sub DataFrame.apply 
+tensorflow.matmul numpy.matmul 
+... work* DataFrame .transform .apply `` `` 
+`` `` maped applyed .iterrows 
+SaulloCastro numpy 1.9 
+numpy boardcast n*m groupby 
+set_index numpy.where df1 'Speed Falses 
+label-based iloc 
+abVec abVec abVec spelt abVec 
+einsum memory-efficiently NumPy einsum 
+2,700x+ searchsorted 57,000x+ bincount 
+toset 
+pyd difflib df2 'values .dropna .apply difflib.get_close_matches df1 'Names 
+literal_eval built-in json.loads 
+off-by-one searchsorted searchsorted k-d 
+hypot 13.5 15.2 einsum Memorywise ~6G 
+tf.einsum tf.matmul 
+.apply pd.DataFrame .values.tolist 
+dataframe pd.concat 
+sklearn.svm.SVC LogisticRegression 
+least_squares -- 
+apply_along_axis — 
+fillna 
+row-by-row data.index.dates 180M dataframe 
+.str.len .apply 
+scipy.sparse.csr_matrix Cython 
+to_dict 
+bfill 
+DataFrame.apply drataframe iterrows 
+iloc -- 
+'efficient np.loadtxt 
+pd.to_datetime parse_dates= infer_datetime_format=True 49.4 4.28 53.7 17s 3.86 21s 
+Datanovice 
+scipy odeint 
+dancassin DataFrames DataFrame df_big pd.concat 
+.apply fncineed axis=1 
+pd.to_datetime '1960-01-01 '1980-01-01 datetimes datetimes 
+DataFrame.append 
+np.einsum ... ... 
+`` `` .unique pd.Series .map df.loc ==5 .groupby .size .fillna agg/lambda 
+unutbu np.einsum 
+5000 1-dimensional 
+row-wise if-elif stackoverflow.com/a/18194448/1936114 jezrael 
+BrenBarn set_index 
+csr_matrix 
+find_peaks_cwt scipy.signal.convolve 
+data.groupby 'cod_id .apply .T s= s.reset_index drop=True 
+cdist cdist ~35x 
+DataFrame build-in df.values 
+numpy.convolve 
+pd.apply 
+dask.dataframe groupby+apply 
+einsum 10000 
+np.array np.loadtxt np.arrays 
+PoolAllocator map_fn 
+non-performant non-unique c_id gp.get_group your_c_id groupby series/df 
+np.loadtxt 'sample.data delimiter= dtype=np.object 
+.unique 
+numpy searchsorted 
+10,000 25x 
+run-time iterrows 
+mode= 
+iterrows `` `` 
+vectorised iterrows 
+vectorised dataframes 
+access-by-index 
+np.apply_along_axis np.vectorize for-loop 
+concat concat BrenBarn HDF5 
+.apply jezrael .diff e.g 
+pd.concat ignore_index=True 
+df.index.isnull NaNs Int64Index RangeIndex isnull 
+tensordot larger-than-necessary einsum 
+.apply astype 
+df0 df0=pandas.read_csv orgfile .str.replace `` 
+list-comp downvote 
+agreggate groupby 
+pandas.read_csv loadtxt `` `` loadtxt-alike memory-friendly 
+sklearn.linear_model.LinearRegression input/output numpy.polyfit 
+groupby DataFrame 
+14x 
+np.isin ~100 
+numba.jit right-hand-side odeint scipy.integrate 
+`` `` .div `` `` .reindex requests.i ndex method= `` ffill `` .reset_index .set_index 
+scipy.spatial.distance.cdist inner1d 
+np.take ideone.com/hO8Cr8 
+csc_matrix csr_matrix 
+cdist euclidean numpy.sqrt dx**2 40 cdist 
+numba scipy.integrate.odeint 
+m/ d/ ... to_datetime 
+np.take c-contiguous 
+solutio DataFame slowier 
+matmul Lx-cache N^3 GPU-s SM_registers cache-friendliness matpow 
+200000 dataframe groupby 
+juanpa.arrivillaga ... 
+pd.concat dataframes 
+np.einsum np.tensordot 
+pd.DataFrame/pd.read_json 
+hashable 
+concat df1.merge df2 how='outer .merge df3 how='outer .merge df4 how='outer 
+0.1s 
+scipy.signal.convolve2d scipy.signal.fftconvolve 
+561 timeit.timeit `` df.reset_index level= 0,1 .groupby 'State 'City .resample '2D how='sum `` number=1000 561 7.496185064315796 562 timeit.timeit `` df.unstack level= 0,1 .resample '2D how='sum .stack level= 2,1 .swaplevel 2,0 `` number=1000 562 10.618878841400146 
+concatdf=pandas.concat dfclean axis=0 
+np.matmul einsum 
+re-write groupby 'Date 'Stock 
+NaNs np.convolve 
+_dotblas.so NumPy 
+`` `` einsum 
+groupby superlinear 
+pthon 
+60 3,000 dataframe 
+vectorised 
+to_remove invert=True 50x matrix.flat to_remove to_remove matrix.flat 
+dataframes groupby 
+iterrows unusably 
+user772649 -- 
+scipy.linalg.inv SciPy 
+tolist dataframe concatenating dataframe concat 
+f16 f32 
+tensordot BLAS/LAPACK 
+groupby 'gp .apply some_fun performance-wise 
+vectorised concat 
+np.searchsorted numpy 1.8 numpy numpy 1.9 
+np.einsum a*m .sum np.einsum 'ij ij- 
+pandas.DataFrame.rolling ... .apply 
+cdist einsum 
+iloc and/or pandas.DataFrame 
+groupby numpy numba njit 
+NumPy 
+non-vectorized 
+l+r2D np.take 
+~25 pandas.concat 
+pd.to_datetime cache=True 
+rank-revealing scipy.linalg.qr pivoting=True 
+ndarray ndarray numpy.isin groupby 
+vectorisation scalars .str pd.Series 
+pdist 
+groupby pivot_table crosstab 
+tf.nn.softmax_cross_entropy_with_logits 
+np.compress np.take 
+pred=tf.nn.softmax tf.add tf.matmul =tf.reduce_mean -tf.reduce_sum y*tf.log reduction_indi ces=1 
+.apply axis=1 DFs 
+scipy.spatial.distance.cdist sklearn pysparnn 
+groupby sort=False groupby 
+loadtxt iter 
+DataFrame in1d 
+einsum einsum 
+pd.Series.isin np.in1d trade-off 
+.iloc : bottom-to-top 
+`` `` groupby cythonized 
+np.sort np.sort 
+itterrows .apply 
+ParalysisByAnalysis as_index=False groupby reset_index 
+precalculating DataFrame 
+DataFrame .iloc 
+linalg.matrix_rank linalg.det 
+scipy.sparse.coo_matrix 
+.iloc int16 uint16 uint32 
+NumPy 1.9.0 np.take 
+dataframes .eval 
+groupby/apply 
+np.where ~1.25x np.in1d 
+Pyderman pd.concat list_of_dfs pd.concat df.append 
+dynamic_rnn 
+hpaulj in1d np.where x==3 x==4 
+3.73s 3e6,59 df.groupby 'col1 .size .apply df.groupby 'col1 .size .sum *100 
+einsum NumPy 
+pandas.DataFrame read_json -- sub-field/record 
+einsum np.dot sum-reduction 
+float32 numpy.einsum float32 float16 
+matrix_rank scipy.linalg.det 
+cython 
+cytoolz.concat .apply ~16 
+numpy.in1d numpy.isin 
+DataFrames 
+scipy.sparse.hstack bmat coo_matrix 
+convolve 
+np.take ... 
+1,2 3,4 ... ... 
+kwargs 
+`` Cython-izing `` 
+DataFrame pd.concat efficient/faster 
+~2 
+datasizes einsum 4x+ 
+.unique value_counts 
+itertuples iterrows itertuples fast-pandas 
+numpy 1.8 in1d 
+np.linalg.matrix_rank 
+linalg.inv 
+np.where np.array 
+18.04 Python3 numpy numpy np.arange -- 
+array/matrices 
+2,2 explicitely 
+factorize groupby 
+DeprecationWarning DPGMM DPGMM sklearn.mixture.BayesianGaussianMixture weight_concentration_prior_type='dirichlet_process 
+concat DataFrame 
+Vectorized iterrows iterrows iterrow iterrows .iterrows Iterrows 
+funcs to_datetime erroneous/missing astype to_datetime 
+np.dot A.T np.einsum 
+pd.eval 100 pd.eval 
+np.prod 
+pd.RangeIndex df.loc pd.RangeIndex df.index 
+iloc ... 
+DanielF np.dot ... tensordot 
+dataframe .itertuples .iterrows entry/value 
+map_fn 
+Series.str.replace Cythonizes re.sub 
+.apply NumPy 
+split_points np.searchsorted ids_wor 
+DataFrame contructor .apply pd.Series 
+.ix 64 high-performance iterrows .loc .ix labelling 
+least_squares scipy 
+vectorised .apply 
+np.unique pd.unique 
+.lookup /.iloc 
+awware pd.to_datetime 
+np.sort worst-case n^2 
+np.apply_along_axis 
+hardcoding 
+numpy.einsum float32 float16 uint16 
+scipy.spatial.KDTree N^2 
+numpy numpy.einsum 
+scipy.linalg.svd 
+GPU-kernels small-scale still-SM-local-convolutions SMX-locality SMX-local SM_REG cross-SMX-communication matmul SM_REG-silicon super-smart stencil-aligned just-GPU-local memIO-latencies host2dev dev2host IO-takes execution-performance 
+`` `` np.in1d 
+groupby .transform `` `` 1,000 
+cleaner/faster iloc 
+tensordot superfast.. np.dot tensordot.. 
+np.eimsum np.sum np.product numpy np.einsum_path 
+.iterrows 100 
+iterrows .loc 
+Numpy-based groupby 
+groupby groupby level= 0,1 stull 
+np.apply_along_axis axis=2 
+AmanSingh iterrows 
+pandas.Series ... 
+cdist np.einsum 
+csr_matrix csc_matrix 
+scipy.fftpack.fft 
+dicts 
+set_value iloc df.set_value A',5 
+Lorran dataframe 
+.applymap .lookup ... 
+df.index .loc .copy 
+slowier list.append pd.concatis DataFrame.append 
+set_row_csr_unbounded numpy.r_ lil_matrix 
+realise vectorised 
+concat xlrd 
+tensorflow dynamic_rnn 
+1,2,3 2,3,4 numpy.loadtxt ... 
+timeit df.index.levels df.index.names.index level_name 6.69 df.index.get_level_values level_name .unique 128 
+Nlog scipy.signal.fftconvolve flipud fliplr 
+.apply ... 
+numpy.linalg.multi_dot arr1.dot arr2 .dot arr3 
+... 1114 select_dtypes 
+interp2d interpolant griddata 
+np.isin TensorFlow 
+dataframe 15x groupby 700x method_1 
+groupby 'UserID 'Date 
+tf.one_hot N_CLASSES one-hot tf.nn.softmax_cross_entropy_with_logits 
+smallest/ Scipy distance.cdist 
+leastsq chisquared 
+3:29:00 3:25:28 
+.assign .apply 
+np.digitize 
+einsum linalg.norm 
+groupby dataframe 
+groupby value_counts 
+easier/faster groupby 
+np.einsum uint8 
+iterrows product_id product_id multi-index multi-index 22 pd.crosstab pd.Period 
+pandas.to_datetime datetime 
+pd.to_datetime 
+pandas.Series.groupby 10^5 
+to_sparse 
+kazemakase vstack 
+einsum pdist squareform cdist 
+RegularGridInterpolator 
+np.tensordot axes=1 np.dot 
+.apply backfill_data 
+csr_matrix csc_matrix .data 
+scipy nearest-neighbour k-means scipy.spatial.cKDTree scipy.cluster.vq.kmeans 
+3.5+ 
+.fillna .apply isnull 
+ast.literal_eval pd.eval 100 ast.literal_eval 
+`` `` groupby 
+flashliquid df2.astype .values df2.columns .values df2.astype .apply x.name axis=0 .values DataFrame 
+groupby-related ... 
+to_datetime 50x 
+np.tensordot ... 
+.apply +offset all-together 
+pd.DataFrame.append 
+concat reindex 
+.apply better/more 
+df1 'Team .isin 'Algeria 'India 'Australia groupby df1 df1.sort_values 'Score ascending=False .groupby 'Team .head 
+HallgeirWilhelmsen apply_along_axis numpy 
+spsolve 
+20x30 30x5 600x300,300x10 sol1 tensordot 
+manully true_logits sampled_logits caculate sampled_softmax_loss nce_loss sampling.BTW rnn TensorFlow Tensorflow-Fold PyTorch 
+__add__ __abs__ hard-wired numpy-provided np.isin 
+tolist 
+Series.str.replace 
+hpaulj in1d 
+... concat ... 
+DataFrame 
+apply-free 
+DataFrame applymap i.e . Cython 
+pd.concat dataframes DataFrame.append 
+dynamic_rnn Tensorflow 
+np.sort searchsorted 
+itertuples iterrows dataframe 
+300 iterrows 
+Leimbigler 
+np.sort DataFrame DataFrame.duplicated 
+10K ~15x 
+.apply .progress_apply 
+... df.select_dtypes .applymap .sum axis=1 
+5.68x 1.76x solve_triangular check_finite=False 
+np.tensordot 0.2126 0.7152 0.0722 axes= 
+pd.concat pd.concat 
+DataFrame.eval 
+.apply `` `` 
+np.partition frame.values.ravel : 
+DataFrame.iterrowsis 
+AndrewForbes tensordot 
+element-wise reduce_sums tensors 
+numpy in1d n+m *log n+m 
+np.take C-order np.ascontiguousarray 
+i.e . 
++= np.convolve l*i l* i+1 l0*i l0* i+1 'valid .any iters 
+pd.concat df_dates *4 pd.DataFrame np.tile df_dates df_dates.columns 
+idxmax dataframe np.where 
+sort_values np.sort 
+np.tensordot sum-reductions 
+Cylp ... Cylp/Clp scipy.optimize.linprog 
+pandas.concat df1 df2 join='outer keys= 'v1 'v2 
+einsum optimize=True 
+100 groupby 
+pd.DataFrame df.colC.values.tolist apply-method 
+SciPy scipy.signal.fftconvolve 
+tf.scalar_mul tensors tf.IndexedSlices 
+Cython np.convolve 
+get_value micro-benchmarks 
+numba 20 np.einsum 
+leastsq model1 
+np.einsum sum-reduction 
+0.20.0 groupby .cummin groupby .cummax GH15048 GH15109 GH15561 GH15635 
+sparse.bsr_matrix np.tile B.data N,1 .T , B.indices B.indptr shape= bsr 
+groupby df.Val key=lambda groupby df.Val key=lambda 
+csr_matrix indptr 
+np.intersect1d 
+mrry -tf.reduce_sum y_ tf.log cross-entropy tf.nn.softmax_cross_entropy_with_logits y_ 
+np.genfromtxt pd.concat pd.read_table 'data sep='\s+ *10000 ignore_index=True pd.read_csv np.genfromtxt 
+unnesting dataframes unnesting idx=df.index.repeat .str.len df1=pd.concat pd.DataFrame np.concatenate .values axis=1 df1.index=idx df1.join df.drop explode,1 how='left 
+quantiles np.searchsorted 
+'vectorized 
+*With 
+and/or one-line 
+np.ascontiguousarray 
+Series.unique groupby 
+df.loc df.filter like='Task .applymap 'Drafting .any 
+... numpy.einsum 
+.iterrows .itertuples Itertuples 
+.apply pd.Series 
+np.take ndx 
+chrisb 
+`` np.take numba `` 
+np.polynomial.polynomial.polyfit scipy.interpolate.UnivariateSpline 
+DppriyaReddy i.split df.a 
+groupby as_index=False reset_index 
+iterrows faster/more 
+100x 
+np.in1d X1D Y1D 
+np.unique return_inverse=True np.searchsorted 
+np.array np.loadtxt np.split 
+JLuxton dataframes 
+tensors tf.matmul 
+np.tensordot einsum 
+scipy.spatial.distance.cdist reproject 
+vewctorized 
+tensordot 50x 
+concat dataframes 
+operator.itemgetter *b 
+Iterating .loc .iloc .iterrows .itertuples iterrows pd.Series i.e 
+groupby 'Salary 
+.ix iloc 
+1.0,1.5,6.0 
+groupby forloop 
+np.partition dslack 
+einsum np.tensordot 
+piRSquared groupby 
+.loc .iloc 
+get_value set_value DataFrames 
+KDTree k=len non-duplicate 
+np.searchsorted non-matchest 
+read_json concat 
+usethedeathstar np.einsum np.dot 
+Edchum str.zfill 
+scipy.sparse.csr_matrix 
+np.isin 
+sklearn.decomposition.TruncatedSVD 2009 
+csr_matrix csc_matrix lil_matrix 
+cProfile np.einsum np.argmin 
+np.lexsortis np.sort recarrays ... 
+numpy.where numpy 
+np.dot np.tensordot np.tensordot np.dot 
+groupby/agg 
+iloc scalars 
+numpy np.partition 
+pd.concat DataFrames 
+tf.matmul 
+np.sum np.einsum 
+'quick jezrael 
+iterrows Vectorization 
+searchsorted .sum axis=0 
+fomat //strftime.org/ to_datetime 
+cython numpy.digitize 
+~3x 
+pandas.Series.apply pandas.DataFrame.apply 
+coo_matrix 
+concat groupby 
+.apply haversine axis=1 haversine numpy 'distance_travelled haversine 'lng 'lat 'lngp 'latp 
+OdgyGsf np.in1d 
+np.in1d np.logical_or.at 
+'listDataSort 'listData .apply numpy.sort 
+set_value 
+datetime pd.to_datetime 'TimeStamp 
+GroupBy.diff df.groupby 'l1 'l2 .diff 
+searchsorted ln2 500 
+ajcr 
+dateparse pd.datetime.strptime .time pd.to_datetime format= .time non-numpy dtypes 
+100 timeit groupby 
+rtol atol scipy.integrate.odeint 
+dataframe .apply 
+Reindex DataFrame.reset_index as_index=False DataFrame.groupby 
+pd.to_datetime dateutil.parser.parse 
+ndarray asarray 
+yguw np.setdiff1d df.index.values example_ix_list.values df.index.difference example_ix_list ... 
+scipy csr_matrix numpy 
+obvoiusly groupby 
+RaceFrog .apply 
+np.dot tad-faster np.tensordot 
+juanpa.arrivillaga .apply 
+groupby DataFrame.duplicated keep=False 
+lanH einsum ... 
+iterrows IndexError 
+NaNs behaviour 
+timeit 
+tf.matmul no-go model-trainer world-wide 
+scipy.linalg eig scipy.sparse.linalg eig Qutip 
+pd.concat pd.read_csv all_files os.path.join `` *.csv `` `` /*.csv `` 
+np.einsum ... 
+scipy.optimize.fmin_powell 
+pivot_table groupby ... .aggfunc .unstack 
+JohnE np.vectorize 
+to_rgba DataFrame.apply 
+10000 randn 2000 .apply 5850ms 
+pandas.DataFrame 
+set_index reset_index DataFrames 
+np.sort 
+concat 
+`` `` `` `` 
+np.isin np.ndarray.__contains__ 
+makegeom numpy 
+data-frame dtype=object iterrows 
+nneonneo einsum ... 
+syockit tensordot 
+pd.Series ... ... 
+df.groupby .nlargest .sum level=0 
+`` np.apply_along_axis `` apply_along_axis 
+... groupby 
+fill_diagonal 
+tf.einsum batch_matmul matmul 
+scipy.linalg.eigh 
+.loc .iloc .at .iat .iterrows .itertuples 
+dataframe dataframe 
+searchsorted searchsorted 2-d 
+np.einsum np.diagonal 
+scipy.stats.rv_continuous 
+sum-reduction np.einsum np.matmul 
+dataframes dataframes 
+`` to_datetime ... datetime `` .. 
+solve_ivp tmin tmax 
+eigenvector linalg.eigvals 
+np.lexsort np.sort 
+.dot 
+e.g 
+np.argsort np.searchsorted 
+np.argsort np.take 
+interp2d 
+dct 
+Wen-Ben 
+np.searchsorted 10 np.abs 
+iloc iloc dataframe 
+localtime datetime64 pd.to_datetime 
+.apply ’ 
+images_yuv np.apply_along_axis yuv imgs 100 1000 apply_along_axis 64GB np.apply_along_axis 
+KeyError 'tenkan_sen .. df2 tenkan_sen df2.rolling .max .eval `` tenkan_sen= High+Low /2 `` inplace=False .. .. .. 
+1,10,100 ... 
+basinhopping munimum 
+.apply pd.Series.last_valid_index 
+TedPetrou .apply ... axis=1 .apply ... axis=0 
+fsolve u=F 
+NumPy 1.6 numpy.einsum 
+df_read.columns pd.MultiIndex.from_tuples df_read.columns dataframe 
+.apply pandas/numpy -/ 
+itertuples 
+Dataframe numpy index_col set_index 
+dataframe 
+tf.matmul TensorFlow per-operation 
+groupby 500MB 
+pd.concat pd.DataFrame dataframe 
+d.assign A=f3 d.assign A=f2 d.assign A=f1 in-place `` `` synta 
+numpy 10 apply_along_axis apply_along_axis 1.12 
+for-loop .append 
+.apply jezrael 
+.Garzón df.pivot 'date 'name 'amount .fillna .stack .groupby level=1 .cumsum .astype 'int .reset_index ... pygo 
+tensordot L-axes L-axis 
+.apply ... axis=1 
+leastsq 
+LinearSVC CIFAR-10 hyperopt 
+groupby np.einsum 
+timing_digitize/timing_searchsorted searchsorted 
+column-wise hand-written 
+12000000 dtype=object 
+scipy.spatial.KDTree 
+matmul einsum 
+groupby e.g . `` `` 
+QuangHoang .str 500k 
+.read_hdf .to_hdf _csv 
+pd.to_datetime dt_series infer_datetime_format=True infer_datetime_format=False 
+numpy.partition 
+sklearn.decomposition.TruncatedSVD 
+iterrows str.split 
+einsum , 
+pd.to_datetime memoizing 
+pd.to_datetime datetime 
+fftconvolve fftconvolve convolve2d 
+tensordotis tensordots 
+iterrows direct/vectorized 
+`` 13 `` to_datetime 
+'answer numpy.loadtxt 
+iterrows numba.jit numpy JIT-compiling inpu 
+mahalanobis_sqdist2 18x for-loop 26x np.apply_along_axis 
+vectorized/inbuilt 
+1000 1000 float64 a.dot 16x np.einsum 
+numpy.take numpy.split 
+pd.concat df.ID pd.DataFrame df.col2.values.tolist axis=1 
+pd.concat dataframe //pandas.pydata.org/pandas-docs/stable/merging.html concatenating-with-mixed-ndims 
+df2 df1 
+concat DataFrame.reset_index 
+DataFrame.set_index Series.unstack DataFrame.join 
+tf.nn.softmax_cross_entropy_with_logits tf.nn.softmax 
+numpy np.apply_along_axis numpy.apply_along_axis 
+scipy.signal.convolve2d scipy.signal.convolve 
+1.5 20x cumsum gamma=1 
+iterrows itertuples dot-notation namedtuples dtypes 
+np.dot einsum 
+tf.dynamic_stitch tf.setdiff1d 
+r_ -- r_ 1,2,3 1,2,3 -- 
+get_value set_value 
+df.groupby `` `` `` `` .shift .bfill .ne `` `` .astype 
+iterrows numpy.where 
+for-for pd.DataFrame.iterrows 
+DataFrames concat 
+apply+frozen_set 
+.applymap and/or .groupby 
+np.einsum 'ij ij- optimize=False 
+DataFrames pd.concat 
+scipy.ndimage.convolve scipy.signal.convolve 
+np.intersect1d numpy C/C++/Fortran 
+-ish numpy 
+tf.sort tf.argsort argsort back-propagation 
+BallTree KDTree BallTrees KDTrees 
+basinhopping 
+.merge .iterrows 
+groupby pd.concat 
+Index.set_value 
+in1d np.delete 
+groupby +cumcount 
+einsum dtype 
+DataFrame.groupby 
+50 np.convolve 
+jezrael 1516268134 1.516268e+09 0.0 2.6.6 ... agg/aggregate AttributeError 'DataFrame 'aggregate -error .apply TypeError `` 'list `` u'occurred 
+unpair DataFrame.iloc 
+tf.gfile.FastGFile 
+1000 .apply 
+vectorised 10K 
+str.get_dummies groupby 
+99 
+numpy.vectorize upper_slice np.apply_along_axis ... 
+usethedeathstar ... ... Cython 
+EqualsAny out=zeros ar.shape dtype=bool out+= ar==val numpy.in1d 11 timeit EqualsAny badlabels smallnum 519 timeit in1d badlabels smallnum .reshape badlabels.shape 871 numpy.in1d 
+apply_along_axis vectorize apply_over_axes ... 
+set_index reindexing 
+dimention np.take dist_1 random_labels random_labels 2,5000 numpy 
+numpy.intersect1d 
+np.searchsorted np.ravel_multi_index 
+curve_fit leastsq polyfit polyfit curve_fit leastsq y-data x-vector 
+BatchNormalization 
+matmul einsum ... 
+iterrows 9000*500 numpy 
+tf.keras.layers.CuDNNLSTM 
+sum-reduction einsum explicit-broadcasting 
+np.where pd.Series 
+scipy.linalg.lu_factor scipy.linalg.lu_solve 
+np.einsum dtype=np.float dtype=np.double 
+fsolve 
+np.einsum 'ij kl- bb_res bb_res 
+round-off Cython fsolve Cython fsolve 
+iterrows 100 dataframe 
+JoeKington searchsorted 
+pdist cython 
+gensim negative_sampling_loss sampled_softmax_loss 
+sklearn.neighbors.KernelDensity scipy.stats.gaussian_kde 
+sklearn.linear_model.LinearRegression statsmodels.OLS scipy.linalg.lstsq numpy 
+'names 'author .unique 
+memory-efficient loadtxt memory-efficient 
+juanpa.arrivillaga w/ groupby 
+iloc favours favour iloc 
+np.dot np.einsum 
+DataFrame to_datetime infer_datetime_format=True 
+numpy/searchsorted/where 
+scipy.linalg.lstsq NxM submatrix NxN 
+StevenG 
+ha-ha df.SubBrand.str.split expand=True .apply c.str .fillna `` .sum -D 
+1E6 b=1E6 ~300 searchsorted 10x 
+.append .loc FooBar DataFrame ShikharDua 
+Saullo np.apply_along_axis 
+2000 1000 
+.iloc .loc 
+`` `` pd.to_datetime 'Date format= .dt.strftime M- d- 
+aa-bb … np.sum np.einsum 'ij ij- /2 … 
+np.take .ravel val_arr 
+distance-based ... np.in1d ... 
+battle/tradeoff vectorised value_counts 
+*a 
+IIUC np.triu_indices M1.shape np.einsum 'ij ij- matrix-multiplication isnt 
+pd.unique sort-based hashtable 
+DataFrame.apply scipy.stats 
+.loc/.iloc .apply 
+EdChum nunique 
+tmthydvnprt dataframes 
+timings.. np.dot tensordot 
+500,4000 np.einsum 
+df.columns groupby df.groupby `` `` `` `` .apply columns.index x.name .values 
+fun11 numpy.in1d fun12 
+sparse.dok_matrix 
+np.einsum np.inner np.dot 
+tensordot 35 einsum 
+einsum np.einsum 'iij- 
+pd.isna ~pd.isna .apply 
+faster/ groupby 
+vectors/matrices 
+dataoptions groupby 
+.sort 
+eickenberg np.sort 
+numpy np.searchsorted 
+pd.to_datetime pd.Series date_stngs 
+scipy.optimize.fmin_l_bfgs_b 
+24 numpy.einsum 
+.take 
+timeit groupby 
+aequo ix_ 
+searchsorted triangels 
+`` `` `` 
+dataframes concat 
+10x multi_dot 
+over-engineered DataFrame.apply 
+'pd.concat 
+convolving user-supplied convolve 
+numpy 1000 add/multiply np.dot 27 add-multiplies for-loop C-ordered N-dimensional numpy np.einsum 
+numpy numpy.searchsorted 
+.apply .apply pd.Series 
+re.sub '/ '- to_datetime 
+joris iterrows itertuples itertuples 100 iterrows DataFrame 5027505 iterrows 1200it/s itertuples 120000it/s 
+StephenLee matrix-mult price_mapping.astype .dot widget_prices dtypes 
+value_counts 'Product_id .isin top5 .groupby 'Employee_id 'Prod uct_id .value_count .unstack .reinde columns=top5 fill_value=0 
+DataFrame re-transposing .append 
+drop_duplicates dataframe 14107693 0.18 
+tanh 
+numpy.einsum here.. 
+EdChum to_datetime 
+pd.concat df.loc slices.. 
+LinearRegression 
+vecorized 
+scipy.signal.fftconvolve 
+15 
+np.in1d in1d 
+denfromufa 'b1 'b2 =pd.DataFrame .values.tolist index=df.index .apply pd.Series 
+identidy pd.to_datetime 62sec 91sec 
+datetimes .dt .apply 
+fillna Fillna 
+ndarrays np.matrix 
+df.groupby 'c1 .apply ... 
+pandas.DataFrame.apply 
+`` AnimalClassId `` set_index reset_index 
+flatnonzero 
+scipy.integrate.odeint 1-dimensional RHS_im 20 RHS_im 
+dtype datetime dtype pd.to_datetime 
+Source_doc Source_doc groupby 
+iterrows datetime 
+re-use groupby dataframes 
+numpy.loadtxt ... ..readlines 
+iloc dropna 
+numpy.transpose .dot numpy.transpose B*C 
+fftconvolve scipy fftconvolve int1 int2 =ifft int1 *fft int2 
+matrix-free course-materials BFGS-based scipy LinearOperator 
+scipy.signal.convolve `` `` 
+roll_mean roll_std convolve numpy 
+scipy.spatial.distance.pdist ... 
+DataFrame DataFrame pd.DataFrame columns= ... .set_index ... 
+rep_mask np.in1d 
+pd.concat np.vstack ... concat 
+vectorised 'Category .str.split .apply 
+np.subtract.outer outer-product and/or 
+DataFrames concatenating pd.concat sub-DataFrames 
+map_fn map_fn 
+.ix .loc .iloc 
+.reindex in-place CPU-and-memory-efficient concat 
+numpy np.in1d 
+dan-man einsum sum-reducing 
+np.diagonal input_array select_id 50 
+anishtain4 itertuples iterrows 
+df.ge pd.to_datetime '2018-10-15 .fillna .astype 
+axis=1 15 
+.loc iloc .ix .ix 
+14x 2.6x einsum 
+methods/functions .apply .applymap 
+numpy.linalg.solve scipy.linalg.solve_triangular numpy 
+einsum einsum fall-back 
+’ groupby ’ 200,000 
+groupby dataframe numpy 
+list-comprehension 
+scipy.spatial.distance.cdist distanceMatrixOfCurves 
+np.einsum 'xyf xtf ytpf fr- tpr optimize= `` `` 
+B*-tree 
+np.in1d np.arange num_rows 
+groupby ... 
+matmul matmul 
+cKDTree KDTree cdist 
+iloc 100 
+in-built 
+to_datetime 
+concat piRSquared 
+np.array a*b .dot xx.swapaxes 0,1 
+groupby to_records DataFrame 
+np.searchsorted numpy.digitize 
+.applymap 
+`` `` .apply 
+JasonGoal pd.eval 'numexpr 
+set_index 
+.apply in-efficient 
+groupby reset_index 
+pandas.melt pandas.concat 
+Multiindex 
+1080 tf.matmul numpy 
+160 10000 scipy.linalg.solve check_finite=False check_finite=False overwrite_a=True overwrite_b=True 
+functools pd.concat 
+integer-based .iloc 
+`` np.apply_along_axis 
+antipattern 
+jdehesa tolist python-iteration 
+Cython pandas.eval 
+700 
+tensordot np.dot np.rollaxis np.dot 
+iterrows groupby 
+coo_matrix csr_matrix 
+np.einsum 'ij ik- x.T 
+25 einsum 
+pd.to_datetime infer_datetime_format 
+searchsorted e.g.100x 1000x 
+cs95 
++0.0 -0.0 np.intersect1d linearithmic 
+tensordot apply_along_axes 
+strptime dtype strptime applymap 
+np.einsum 'nk nk- delta.dot np.sum .. 
+most-efficient concat 
+groupby SeriesGroupBy.nlargest .sort_values ascending=False .head 
+numpy 80 tf.matmul haswell 
+datetime pd.to_datetime 
+MaxU nlargest 
+DataFrame concat 
+numpy/scipy/matplotlib scipy.spatial.KDTree np.meshgrid KDTree.query plt.hexbin plt.scatter 
+Roulbacha apply_along_axis newar-C-level ruine 
+tensordot einsum reshaping/broadcasting 
+np.dot A.T 500 400 10x np.einsum 
+pd.Series pd.DataFrame 
+vectorised vectorised 
+groupby group_no 
+.applymap DataFrame 
+np.dot 2.5 np.einsum 500,400 
+pivot_table groupby groupby pivot_table 
+numpy/pandas iterrows 
+Series.value_counts 
+StipeGali ... searchsorted 
+df.rain_column.map performance-wise dataframe 100 228 287us 10000 26 512 13 
+WarrenWeckesser einsum 'ii- 
+I/O .apply dataframe 
+groupby AlexRiley ... 
+Python/Pandas 
+numpy.amin numpy.amax 
+Hsig M.T 
+scipy.spatial 'nb1 'nb2 'nb3 =np.concatenate distance.cdist metric='euclidean 'TX 'TY 'TZ .groupby 'Frame .T pd.DataFrame di.T di.rename columns= 'nb1 'nb2 'nb3 inplace=True 'Frame 'Frame 'tagID 'tagID 
+pd.concat pd.DataFrame axis=1 .tolist 
+.at .loc .iat .iloc 
+scipy.stats.gaussian_kde sklearn.neighbors.KernelDensity 
+~3 datetime 'date pd.to_datetime 'date 
+WeNYoBen `` .values `` `` .to_numpy `` `` TypeError unhashable 'numpy.ndarray `` 
+set_index datetime 
+vertica_python .copy 'COPY STDIN ... 
+lil_matrix 
+pd.DataFrame.apply -- -- 
+array-based np.apply_along_axis 
+requests.get `` `` 
+np.partition 100 
+QuantChristo groupby 
+x^T NumPy SciPy csc_matrix 
+Dataframe .iloc Dataframe 
+x64 np.einsum inner1d 
+Cholesky decomp np.einsum `` `` invA np.sum invA.T 
+get_value 
+df_new 'values df_new 'values .str.split .apply 
+-- -- sub- dataframes 
+to_numeric 
+numpy.dot 39 scipy.linalg.eig 
+256 .take 
+hdf to_hdf 
+numpy np.take 
+numpy.setdiff1d 
+pd.to_datetime x5-10 
+vectorize 
+np.apply_along_axis scipy 
+1.64 eig 
+JonClements groupby 
+matrix-multiplication np.einsum 
+genfromtxt loadtxt 
+sum-reduction np.einsum dot-based 
+codewarriors loadtxt 
+Groupby.diff 
+numpy.einsum element-wise 
+coo_matrix non-zero 1-D Cython ... 
+to_datetime unit= 
+a*mask .sum axis=axis np.einsum 'ij ij- 
+np.searchsorted NumPy numpy 
+dataframes pd.concat my_list dataframe 
+r.json 
+'Bid .unique 
+as_matrix numpy array.Doing np.loadtxt 
+np.in1d np.searchsorted not-so-easier 
+numpy np.loadtxt 
+pandas/dask dataframes pd.concat dd.concat 
+Funktiona np.einsum .sum 0,1 
+'Measures 'Measures .apply np.array 
+Iterating dataFrame iterrows itertuples newDatafromve df.loc 
+transform1 transform1 
+dataframes pd.concat row/column dataframes NANs 
+150M ~1.5Gb numpy.in1d 
+numpy.einsum fortran 
+i.e . str.split Series.str.split 
+iterrows column-based Pandas-centric 
+numpy.tensordot numpy.einsum 
+sbajew df.iloc .applymap x.startswith min_val .sum axis=1 
+groupby 'inx_l sort=False 
+chunk.apply ... datetimes pd.to_datetime format= ... 
+.T 10 15 
+colours 
+.groupby pd.Grouper freq= .sum .plot.bar datetime x-axis 
+numpy.sort DataFrame 
+.append memory-efficient 
+IanS 
+griddata interp2d 
+pd.read_csv datetime pd.to_datetime 
+groupby groupby 
+concatenating str.cat read_json 
+datetimes to_datetime errors='coerce Series.combine_first 
+pd.concat time-efficient pd.concat 
+read_json DataFrames 
+tf.image.decode_jpeg 
+optimezed groupby 
+np.dot bmcsim np.einsum myexpm 
+-- dataframes 
+'tricks 
+np.searchsorted 50,000 50,000 22M 
+DataFrame.append //pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.append.html 
+.groupby 'name sort=False .ngroup .add .map 'group '.fo rmat 'group ... 
+timeit DatetimeIndex .map/.apply .dt 
+17 17 17 4913 ravel_multi_index x10 ... 
+concat 130x 
+cdist scipy.spatial.distance 
+np.amin/amax 
+np.searchsorted vectorised 
+numpy.genfromtext numpy.loadtxt 
+pandas.to_datetime 39 2014/12/31 39 
+np.dot vectors.T .T np.einsum 'ij kj- 
+built-in built-in 
+numpy scipy scipy.linalg.solve_triangular check_finite=False non-destructive 
+jpp iloc 
+groupby .filter 
+numpy datetime pd.to_datetime 'Date 
+index_col groupby .shift 
+not-so-pretty not-so-efficient groupby 
+groupby .split 
+10 np.digitize np.searchsorted 
+df.groupby by= 'id .apply x.mode .reset_index drop=True 
+df.add pd.concat *1000 
+Performance-wise DataFrame.apply 
+functools.partial 
+np.einsum 'ij dadb 
+numpy.take ndarray 
+concat ~4x cumcount 
+.to_datetime 
+matrix-vector einsum 
+’ .iloc .loc `` 
+iterrows dataframe ~70,000 
+complete-link scipy.cluster.hierarchy.dendrogram scipy.cluster.hierarchy.linkage sklearn.AgglomerativeClustering 
+pd.concat 100000 
+BradRhoads .apply 
+`` numpy.convolve `` 
+precise_float pandas.read_json buitin 
+DataFrame.iloc 100 
+matrix-multiplication np.dot np.einsum 'ia ka- ijk 
+data/examples ... ... `` `` veeeery .iloc .loc .iloc df.index.get_loc `` itemname `` df.columns.get_loc `` itemname `` iloc 
+dataframes pd.concat dataframes 
+scipy.signal.correlate 
+mmvw astype 
+np.mean my_matrix axis=1 40rows 10-300 
+scipy.stats.rankdata np.apply_along_axis pd.DataFrame.where 
+stackoverflow.com/questions/6519380/… brenqt fsolve 
+itertuples itertuples iterrows 
+rbm_modle.cd1 tf.matmul rbm_modle.cd1 
+scipy.signal.fftconvolve cross-correlation e.g 
+np.intersect1d df1 df1.values.ravel .all 
+10 iloc 
+.apply Dataframes 
+csc_matrix column-operations csr_matrix row-operations csr_matrix row- column- 
+groupby dask 
+numpy.tensordot tensors 
+dafaframe 
+dict1 pd.concat beg_df end_df res_df.append dict1 
+applymap astype 
+reindex ffill 
+pd.to_datetime pd.to_datetime .year `` `` +str pd.to _datetime .mon `` `` +str format= Y/ m/ pd.to_datetime `` `` +str `` `` +str format= Y/ m/ 
+iterrows iterrows 
+pd.DataFrame.apply checking/validation 
+pd.concat *1000 str.contains 'Fruit 
+Iterating Dataframe 
+numpy 1.8 np.partition np.sort 
+DataFrame 4.8 .iloc single-element 489 1,800x .ix 3,500x .iloc 
+Iterating dataframe Cython 
+setdiff1d 
+EdChum parse_dates read_csv to_datetime 
+DataFrame data2 DataFrame 
+np.sum np.einsum 3-30 
+scipy.sparse.coo_matrix scipy.sparse.csr_matrix coo_matrix csr_matrix 
+df2 MultiIndex DataFrame 
+unique_pref and/or val_pref and/or set_value dataframe 
+np.sort np.partition 
+dd.read_parquet ... .groupby 'key .apply ... 
+np.where 
+np.lexsort np.sort recarray lexsort 
+genfromtxt loadtxt numpy 
+Any-channel np.any np.einsum 
+cumsum numpy 
+linalg.solve 
+.apply iterrows 
+lambdafunc DataFrame 
+GroupBy ’ `` groupby 
+np.einsum np.sum 
+MaxU astype 
+einsums 
+multiplications/summations linalg.solve gaussPivot 
+scipy WarrenWeckesser scipy.stats.rankdata scipy.stats.mstats.rankdata np.searchsorted fastet 
+numpy.dot scipy.linalg.eig 
+numpy.argmax numpy.sort argmax 
+data.groupby 'device_id time_diff groups.apply pd.to_datetime data.datetime .diff .mean pp.pprint time_diff 42.4 timeit mean_diff 'db120223146f426e19c910c7f11d01ad 1000 984 
+JonClements vectorised .str .dt 
+pd.unique value_counts 
+'yearday pd.to_datetime 'YEAR 'MONTH 'DAY .dt.dayofyear 
+ndarray 
+Ax=b *b `` `` 
+NumPy-sort .apply Cython/C Pandas/NumPy 
+x_idx pd.RangeIndex 100000 timeit ser.isin x_idx 
+NeilG np.searchsorted 
+pd.unique 
+matricial apply_along_axis 
+tf.map_fn CPU/GPU 
+numpy.einsum 's elementwise-multiplication sum-reduction essenti numpy.einsum 
+np.setdiff1d np.view 
+pandaic 
+nsmallest 
+idxmax DataFrames 
+.groupby 'id 'atr1 'atr2 
+Numpy np.setdiff1d np.view 
+DFs concat 
+numba numba odeint ymmv 
+groupby itertuples dataframes e.g 
+itertuples 100k 
+np.take np.take random_labels axis=0 random_labels axis=1 
+np.ndindex apply_along_axis 
+.apply .map 
+sparse.linalg.splu .solve LU-decomposition SuperLU 
+.replace .applymap 
+asongtoruin 
+np.setdiff1d 
+scipy.spatial.distance.pdist 'correlation 5000 20 
+i,1 .isin 
+120us tf.map_fn 
+axis-alignment dot-based einsum 
+tf.tile np.tile tf.stack matmul 
+parmeter pd.to_datetime 
+numpy numpy.setdiff1d 
+np.searchsorted np.where 
+datetime 
+sklearn.decomposition.NMF 
+df.Pressure df.groupby 'idStation 'idCast 'Pressure .cummax 
+`` iterrows `` 
+DataFrame.applymap `` `` 
+NumPy 1.9 NumPy np.take 
+Dahlai searchsorted 
+nlargest heapq 
+pd.concat A.reset_index B.reset_index .drop_duplicates subset= 'l1 'l2 .set_index 'l1 'l2 
+pd.to_datetime unit= 's 
+built-in NumPy 
+pd.concat pd.drop_duplicates 
+PaulPanzer searchsorted 
+debuggingXD `` `` ... performance.. 
+askewchan unpack=True np.loadtxt data.T 
+np.dot np.einsum 'ij kj- 
+numpy.in1d ~30x 
+numpy np.apply_along_axis 
+MultiIndexes groupby bfill 
+numpy.histogram numpy.digitize 
+tidy2 tidy3 .eval 
+logn 
+.map .apply 
+df1.join df1.index pd.concat 
+iterrows 
+dataframe per-file groupby 
+savetxt loadtxt fromfile ... 
+Droping mydf.dropna subset= inplace=True .head mydf.groupby 'key .apply x.head 42 .agg 'mean 
+np.in1d 'Column 'Column 
+pandas.concat ... ... 
+dok_matrix single-element 
+key1 key2 key3 pd.DataFrame single_list columns= .set_index 
+np.einsum 'ab *factors 
+np.dot np.apply_along_axis 
+much-deserved 
+'tf.matrix_solve_ls 'fast=True float32 'l2_regularizer 'l2_regularizer 1e-3 ... 
+10x concat 
+boolean_indexing iloc 
+np.einsum ~2x 
+iterrows islice 
+S_i U_j U_j.transpose K_i np.dot np.einsum 
+... 
+fmin xtol ftol 
+linalg.cholesky 
+numpy.select 
+'files .apply .sum 
+np.loadtxt moderate-sized 
+.apply .str.len 40M 12.7s 13.7s 
+.apply for-loop memoizing 
+concat pandas.append 
+Flywheel_SF.csv `` skiprows `` numpy.loadtxt 
+pd.to_datetime .dt.to_period .dt.end_time 
+numpy 1.8 np.partition 
+usingpd.concat reindex 
+sklearn sklearn.linear_model.ElasticNetCV 
+set_index concat 
+n_samples 10k MiniBatchKMeans 
+contigous numba 
+iterrows itertuples 
+SarthakNegi iloc 
+join_on_index df_list pandas.concat x.reindex df_list 
+np.intersect1d np.any 
+'fancy ix-1 , 
+the_constant pd.concat pd.merge 
+*Number 
+theano.tensor.batched_dot einsum 
+reasons.. 
+: /- `` .str.split expand=True .set_ind append=True .unstack .groupby evel=0 .first functionafter applt 
+np.searchsorted e.g 
+cumsum searchsorted 
+np.dot np.einsum np.dot matrix-matrix 
+np.tensordot rgb_data ... 256 1/256 axes= -1,0 32768 
+np.any Y==i axis=0 
+... DataFrame.apply ... 
+np.take `` `` np.partition 
+tf.transpose tf.segment_sum tf.segment_sum segment_ids 
+dotis 
+Numpy 
+98 yout1 yout2 =numpy.loadtxt 'training_set/mod_data/'+fnamelst riter delimiter= usecols= 0,1 dtype=int unpack=True 
+concat 24.6 3.02 
+faster/more Jeril ... 
+1e+6 0.16 numpy.sort 1.6 histc 
+DataFrame q.empty 
+np.solve linalg.lu_factor 
+axis= kwarg np.linalg.norm np.einsum 
+numpy.linalg.multi_dot C-1 mathoverflow 
+scipy.sparse.csr.csr_matrix 
+pd.concat 10000 ignore_index=True 10000 
+pd.concat dataframes concatenating pd.concat 
+scipy.sparse.linalg.inv 'If non-sparse scipy.linalg.inv 
+einsum 2-dim 4-dim sum-reduction 
+np.convolve numpy 
+DataFrame 60k ~3 time_convert_func iso_to_gregorian time_stamp time_stamp time_stamp 'startdate .astype .apply time_convert_func 
+array-like 
+groupby pivot_table 
+300000,20,40 1.11 einsum 273 ms. 
+np.isin performance-efficient 
+dataframe .copy 
+FelipeAlmeida .apply .map for-loops 
+np.in1d unutbu 
+iloc DataFrame 
+iloc if-statements 
+Series.str.extract 
+scipy np.apply_along_axis numpy.linalg.norm `` `` 
+amax 
+np.convolve np.ones /5 mode='valid 
+in1d 
+-- y=ae^bx y=e^b*x scipy.optimize.leastsq 
+tf.matmul 35 np.dot 
+cdist pearsonr 
+IIUC iterrows iterrows NaT isnull 
+set_index iloc 
+nlargest 
+concatenating 
+np.digitize searchsorted 
+.apply built-in 
+bincount searchsorted bincount 
+np.bincount 60 np.isin np.in1d one-dimension 
+.apply pd.DataFrame.shift periods=-1 
+func4 einsum einsum 
+dataframe iterrows 
+DataFrames DataFrames pd.concat 
+`` `` JoshAlbert 
+pd.concat pd.read_csv glob-glob-etc 
+subquery dataframes pd.concat 
+tf.dynamic_stitch tf.scatter_nd tf.scatter_nd ... 
+iterrows dataframe 
+Lmfit leastsq 
+np.einsum np.any 
+micro-optimizations tensordot 
+subquery 
+fmin Nelder-Mead 
+np.einsum np.add.at implementet 
+.apply for-loop 
+iloc iterrows iloc iloc 
+df.groupby ... .apply ... 
+//stackoverflow.com/a/30273446/865169 setdiff1d 
+data.loc pd.to_datetime date_list 'values 
+.apply slow/inefficient 
+Iterating iterrows 
+DataFrame.iloc get_loc 
+groupby 1954 2001-09-30 1954 
+HDFStore 
+pd.concat thePrices keys= dt.strftime todayDate m/ d/ .unstack level=1 
+DanielF in1d 10x 
+UncleBenBen e.g 
+10 np.sort 
+dataframe dataframes pd.concat temp_df latest_temp_df pd.concat 
+df.groupby 'symbol .apply x.sort .iloc 
+pd.to_datetime col.str 
+pivot_table groupby 
+np.take `` `` ndarrays 
+9000 einsum 450x func1 7470x func2 
+vectorize einsum tensordot 
+vectorised str.split 
+groupby nlargest 
+CuDNNLSTM CuDNN CuDNNLSTM 
+new_eu.sort_values `` `` ascending=False .head .index new_eu.sort_values `` `` ascending=False .head .iloc 
+np.ix_ omited np.ix_ np.take 
+dataframe groupby 
+1.15 bin_in_mat np.searchsorted side='left 
+'Date .apply pd.to_datetime pd.to_datetime 'Date 
+DataFrameGroupBy.shift concat 
+'Date .dt.date groupby 
+groupby level=0 
+np.einsum np.sum np.mean 
+pd.to_datetime year=df.Y month=df.M day=df.D 
+groupby cumsum 
+tf.nn.sparse_softmax_cross_entropy_with_logits ... 
+einsum optimize=True numpy 1.12 
+1.8.something 25 einsum 
+Instantiate 
+3us np.sum np.einsum 
+scipy.spatial.distance.cdist 
+method= `` `` least_squares trust-region method= `` trf `` Scipy 
+Python-level NumPy np.searchsorted 
+juanpa.arrivilaga 
+.fillna df.groupby .transform 'mean 
+df==DataFrame np.tile rowmax .reshape df.shape .T dex=df.index =df.columns 
+np.cumsum np.searchsorted 
+as_index=False groupby 
+piRSquared einsum 
+.append 
+NumPy euclidean np.einsum 
+— groupby get_group 
+DateOffset datetime64 dtype DatetimeIndex timedelta64 month-based timedeltas nanosecond-based timedeltas ~30 
+pd.date_range ... .difference series.index isin/boolean concat 
+concat x.set_index dup_list pd.concat axis=1 .reset_index 
+store.select_column 'df .unique 
+SilverDuck pd.Series 
+0.13 apply-based fallthrough .apply x.head 
+applymap `` `` 
+GRUCell dynamic_rnn 1.0.0 1.2.0 
+scipy.spatial.distance.pdist squareform 
+np.loadtxt numpy human-readable e.g 
+np.in1d pd.factorize 
+np.searchsorted gist.github.com/cjauvin/ca51e4d9999a5224cd4a 
+Dataframe 
+.apply c-a 
+safer/more 
+sklearn.linear_model.LogisticRegression 
+groupby DataFrame Multiindex 
+AndrewL set_value 
+.apply pd.Series x.unique axis=1 groupby 
+client_name suprise~ again~~ concat 
+numpy.take `` `` 
+groupby 2012 V==0 
+matrix-multiplication X.dot np.einsum 
+Iterating .apply ... axis=1 table-lookup 
+np.any input-type 
+numpy 'plain 
+groupby preallocate 
+.sum groupby 
+scipy.optimize.curve_fit scipy.optimize.leastsq polyfit 
+test.groupby 'Name .apply .corr DataFrame 
+.apply ... .apply 
+dataframe pd.read_json 
+dataframe concat 
+30 scipy.spatial.distance.pdist 
+vstack hstack 
+mxbi double-transpose ... .take 
+dataframe row-wise 
+msgpack scipy.sparse.coo_matrix python.sparse.coo_matrix 
+np.partition order= 'ranks np.argpartition 
+np.in1d 
+df.index.to_series .apply x.dayofweek 0,1 
+numpy np.greater_than np.less np.take 
+groupby aggreagte ... 
+concat `` non-ideal `` 
+user2970608 iterrows 
+np.sort np.diag 
+df.loc , 'features .isin set_of_features .groupby eatures .sum 
+gaussianBlurOld 
+returns.add .apply np.log np.log returns.add jpp 
+scipy.spatial.distance.squareform np.einsum 
+amine23 np.in1d 
+.set_value ~3x .at .apply 
+groupby to_dict 
+linalg.solve_triangular Au.toarray spsolve 200ms 
+value_counts 
+.concat .mean 
+`` numpy `` searchsorted 
+np.tensordot matrix1 matrix2 
+one-dimensional numpy.searchsorted NumPy 
+solve_banded scipy.linalg 
+groupby ... DataFrame.div 
+lda.LDA.fit scipy.sparse.csr_matrix 
+Pypy CPython Numpy np.searchsorted 
+ndimage filters.convolve signal.convolve 
+tf.matmul tensorflow numpy 
+apply_along_axis isnt Scipy np.ones win_size win_size dtype=int 
+concat Multiindex 
+genfromtxt loadtxt loadtxt `` `` co-exist 
+deligated 
+column-wise csc_matrix 
+pd.concat axis=1 pd.concat axis=0 .unstack 
+concat performance-intensive 
+df.loc df.reset_index .groupby df.index.to_period 'da .max 
+str.split 
+griddata scipy.interpolate.RegularGridInterpolator 
+Tensor-at-a-time elementwise tf.map_fn 
+-- groupby 
+np.sort frozenset 
+dataframes pd.concat 
+concats simulated_period pd.concat simulated_period.. N^2 
+pd.Series DataFrame contructor NaNs 
+.apply pd.DataFrame.head 0.15 
+JohnGalt .applymap ... 
+tf.custom_gradient pixel-wise 
+iterrows itertuples Tuples 
+df.A.map sum_B_over_A.index sum_B_over_A get_value 
+df.groupby 'id 'city .apply x.value_counts .index .reset_index groupby 
+25x vectorizing 
+numpy np.sort 
+dynamic_rnn sequence_length 
+opt1 re-use opt2 least_squares opt3 opt1 opt2 naiively least_squares jacobian jacobian least_squares opt5 
+iterrows bad-performing vectorizing numpy 
+einsum einsum tensordot 
+DavidW multi_dot w.dot .dot 
+sum-reductions tensors tensordot 
+numpy.sort numpy.searchsorted 
+.applymap .apply 
+tensordot np.outer multi-dimensional 
+__getitem__ get_value 
+tf.clip_by_value tf.clip_by_global_norm 
+.applymap =0.5 np.nan 
+Numpy einsum 
+einsum for-loop 
+tf.map_fn einsum `` `` 
+np.in1d np.isin 
+isdisjoint 
+scipy.spatial.KDTree cKDTree 
+non-loopy 
+sklearn.feature_extraction.text.CountVectorizer 
+iterrows dataframe dataframe 
+invertible N+1 N+1 scipy.linalg.solve 
+iter-options 
+pd.Series np.arange 1000000 
+'column join='outer pd.concat 
+pd.Series.nlargest 
+tensordot einsum 
+'col1 'col2 better/faster 
+df.sample .iloc .loc dataframe 
+complex64 spmats .dot 4.65 complex128 22.7 complex64 
+asarray 
+apply_along_axis curve_fit 
+euclidean scipy.spatial distance.cdist 
+np.einsum np.dot einsum 
+NodarOkroshiashvili iterrows 
+iloc iloc .ix .loc .iloc 
+60 
+.iterrows built-in 
+pd.concat 13x preallocating np.empty ... dtype palceholder 
+np.apply_along_axis axis= np.sum . 
+df.groupby 'ID 'W_Weight .unique 
+.sort np.sort 
+np.where .values numba 
+'V1 'V1 .apply dt.datetime.fromordinal .dt.strftime d- m- datetime 
+1.replaced `` irow `` `` iloc `` iterrows 1.5 2m51s +5min `` row.low `` `` pivot-row.low /diff `` `` row.high `` `` row.high-pivot /diff `` ... 
+and/or groupby 
+einsum Numpy sum-product 
+df.timestamp pd.to_datetime df.timestamp 
+for-loop equilvanet for-loop 
+iloc seelct get_loc 
+numpy loadtxt genfromtxt 
+c_einsum tensordot 
+.iterrows dtype 
+to_numpy 
+600 6.24ms 33.3ms 
+concat ignore_index=True 
+pd.concat masterDF pd.concat master_DF ignore_index=True 
+multi_dot 
+10**9 pd.to_datetime 'time unit= 's .astype /10**9 .astype 
+B_table A_table concat C_table 
+maximum_filter1d 3-4 100k 10m 
+one-liner df.column_A.str.extract \d+ \d+ expand=True .astype .apply x.one x.len-x.one axis=1 .apply `` .join one-liner ... 
+IIUC Re-create 
+for-loop k. np.dot einsum 
+df.Date set_index df.Date pd.to_datetime 'Date format= Y- m- df.set_index 'Date inplace=True 
+scipy.spatial.distance.pdist 
+pd.concat 
+125 
+Series.iloc 
+apply_along_axis de-vectorizing 
+Vectorized 
+groupby multiindex 
+CuDNNGRU 
+applymap 
+ali_m ravel_multi_index multi-dim 1-dim intersect1d unravel_index 1-dim multi-dim 
+least_squares 
+.iterrows DataFrame 
+user3483203 .array .asarray 
+Ophion ... einsum ... ... timeit a.sum axis= 1,2 /a.shape /a.shape 
+np.fill_diagonal 
+.append pd.concat .sort_index 
+scipy.linalg.solve 
+MaxU groupby 
+tf.nn.softmax_cross_entropy_with_logits tf.nn.cross_entropy softmax cross-entropy backprop 
+re.sub 
+np.einsum numpy 
+groupby 3-5 10-30 
+get_value get_value 
+timeit 'TIMESTAMP .dt.normalize .unique 281 148 
+KDTree 
+numpy.correlate scipy.signal.correlate numpy.correlate 
+linalg.qz generalised eigenvectors 
+dataframe pd.DataFrame.append list.append pd.concat 
+list.append pd.DataFrame.append 
+Edited2 AT_asks 3:29:00 3:25:28 
+Prabindh numpy tensorflow psudocode tf.nn.conv2d 
+in1d searchsorted 
+tesorflow tf.transpose 0,2,1,3 
+np.concatenate np.sort my_array my_array 
+signal.correlate 20 signal.correlate2d 27x27 5x5 
+in1d well-known built-in 
+einsum 100x+ 
+pd.to_datetime parse_dates 
+pd.DataFrame.apply itertuples 
+DataFrame to_datetime Series.isna 
+HYRY searchsorted in1d 
+ip_map direct_view eig 
+AdityaMertia groupby 
+`` `` .groupby frozenset `` `` `` `` .values =False .transform 
+reset_index level= reset_index set_index 
+dd.read_parquet 'data.parquet index='key set_index 
+20 50 einsum 
+`` mergesort `` ... .append .concat ... 
+pre-allocating tf.dynamic_stitch scatter_nd 
+scipy.linalg.eig 
+numpys searchsorted bincount np.searchsorted sortedness 
+groupby .. 
+k=2*scipy.spatial.distance.pdist s.reshape metri c='cityblock .sum 
+tf.map_fn tf.py_func 
+iloc 
+deprected iloc pandas.pydata.org/pandas-docs/stable/… 
+concatenating pd.concat axis=1 
+ShichuZhu apply_along_axis 
+.sum groupby level=0 .sum 
+SHV_la groupby 
+40,0000 str.replace 
+interp2d griddata 
+Avaris np.einsum 
+np.savetxt np.loadtxt np.fromfile tofile 
+datetime dataframe 'datetime pd.to_datetime 'yr 'mnth 
+groupby vectorises 
+fmin residualLambdaMinimize 
+df.groupby 'gid .apply x.tolist .to_dict 
+pd.read_json ... lines=True ~50k+ 
+drop_duplicates groupby 
+timeit to_datetime 20x 
+one-dimensional 
+short-circuiting `` `` worst-case `` `` 
+hdf5 to_hdf ... append=True 
+arrays/matrices 
+pd.eval 
+re_float_g=r \d+ \.\d+ 
+one-liner 
+groupby mean_col 
+loadtxt dataframe 
+dataframe numpy.log numpy.log1p dataframes 
+iloc iloc 
+slow-down scipy.interpolate.RegularGridInterpolator 
+dataframes 10s 
+'items .values.tolist 
+.agg .apply 
+scipy.optimize.basinhopping 
+reset_index sort_values set_index 
+DataFrame.apply 
+numpy qsort qsort qsort 
+DataFrame pd.concat 
+sort_index set_index 
+liangpu597 np.loadtxt 
+pd.concat axis=1 ignore_index=True .to_csv `` filepath `` 
+np.searchsorted intervaltree 
+subsampled fftconvolve 
+Chipmunkafy Dataframe 
+concat tolist 
+150 400 .loc .apply 
+DataFrame.iloc SettingWithCopy 
+scipy basinhopping 
+np.arange 'group .min 'group .max 'group .unique 1,2,2,3,5,5 
+df.groupby 
+df.index pd.to_datetime df.index format= d- b- . 
+concat optimised numpy 
+numpy.take 
+.apply super-slow 
+pd.unique np.unique 
+.apply MaxU ~40 
+tf.matmul transpose_a transpose_b 
+tf.map_fn e.g 
+jezrael groupby 
+0.20.0 .ix .loc .iloc 
+... df.iterrows ... 
+groupby sort_values GroupBy.head e.g 
